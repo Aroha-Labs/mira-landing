@@ -22,7 +22,7 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
         d="M0 49L339 49"
         stroke="#7BAEFF"
         stroke-dasharray="4 4"
-        className={styles["svg-elem-1"]}
+        className={styles["svg-elem-1"] }
       ></path>
       <g clip-path="url(#clip0_807_157)">
         <rect

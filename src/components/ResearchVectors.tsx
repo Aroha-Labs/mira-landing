@@ -21,7 +21,7 @@ const ResearchVectors = () => {
   return (
     <div
       ref={ref}
-      className={`w-full flex flex-col relative justify-start items-center mt-[157px] pr-[46px] ${
+      className={`w-full flex flex-col relative justify-start items-center mt-[157px] md:pr-[46px] ${
         isInView ? "fade-in-normal" : "opacity-0"
       }`}
     >
@@ -109,7 +109,7 @@ const ResearchVectors = () => {
         A novel AI ecosystem designed for collaboration, openness, and
         unparalleled scalability
       </p>
-      <div className="absolute w-full top-[282px] left-[35px]">
+      <div className="absolute w-full top-[282px] left-[35px] max-md:hidden">
         <LineSVGBottom />
       </div>
     </div>

@@ -17,6 +17,7 @@ import LineSVGBottom from "@/components/LineSVGBottom";
 import FirstEcosystemCTA from "@/components/FirstEcosystemCTA";
 import ComingSoonSVG from "@/components/ComingSoonSVG";
 import Footer from "@/components/Footer";
+import MainDiagramPhone from "@/components/MainDiagramPhone";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 const ibmPlexSerif = IBM_Plex_Serif({ subsets: ["latin"], weight: "600" });
@@ -28,6 +29,7 @@ export default function Home() {
   const [isFourthActive, setIsFourthActive] = useState(false);
   const [isFifthActive, setIsFifthActive] = useState(false);
   const [isComingSoonActive, setIsComingSoonActive] = useState(false);
+  const [isComingSoonPhoneActive, setIsComingSoonPhoneActive] = useState(false);
 
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -52,6 +54,11 @@ export default function Home() {
   const { ref: comingSoonRef, inView: comingSoonInView } = useInView({
     triggerOnce: true,
     threshold: 0.8,
+  });
+
+  const { ref: comingSoonPhoneRef, inView: comingSoonPhoneInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
   });
 
   useEffect(() => {
@@ -90,16 +97,22 @@ export default function Home() {
     }
   }, [comingSoonInView]);
 
+  useEffect(() => {
+    if (comingSoonPhoneInView) {
+      setIsComingSoonPhoneActive(true);
+    }
+  }, [comingSoonPhoneInView]);
+
   return (
     <main
-      className={`flex h-screen overflow-y-scroll flex-col bg-white items-center justify-start ${workSans.className}`}
+      className={`flex h-screen overflow-y-scroll overflow-x-hidden flex-col bg-white items-center justify-start ${workSans.className}`}
     >
-      <div className="w-[90%] md:max-w-[574px] flex flex-col justify-start items-start relative">
-        <div className="absolute w-full top-0 left-[35px]">
+      <div className="w-full md:max-w-[574px] flex flex-col justify-start items-start relative">
+        <div className="absolute w-full top-0 left-[35px] max-md:hidden">
           <LineSVG />
         </div>
         <Navbar />
-        <div className="flex flex-col justify-start items-start pl-[79px] mt-[76px] fade-in-second relative z-[1]">
+        <div className="flex flex-col justify-start items-start pl-[30px] md:pl-[79px] mt-[76px] fade-in-second relative z-[1]">
           <p className="text-[#3284FF] font-semibold text-[20px] leading-[19px]">
             *mira
           </p>
@@ -113,13 +126,16 @@ export default function Home() {
             Maintained and advanced by the community.
           </p>
         </div>
-        <div className="relative z-[1] mt-[39px]">
+        <div className="relative z-[1] mt-[39px] max-md:hidden">
           <MainDiagramSVG />
+        </div>
+        <div className="relative z-[1] mt-[68px] md:hidden w-full flex justify-center items-center">
+          <MainDiagramPhone />
         </div>
         <div className="flex flex-col w-full justify-start items-start mt-[143px] relative z-[1]">
           <div
             ref={ref}
-            className={`flex flex-row w-full justify-between items-center pr-[21.5px] first-about ${
+            className={`flex flex-col-reverse md:flex-row w-full justify-start md:justify-between items-center max-md:px-[36px] md:pr-[21.5px] first-about ${
               isActive ? "fade-in-normal" : "opacity-0"
             }`}
           >
@@ -131,9 +147,9 @@ export default function Home() {
           </div>
           <div
             ref={secondRef}
-            className={`flex flex-row w-full justify-between items-center pr-[21.5px] second-about ${
+            className={`flex flex-col-reverse md:flex-row w-full justify-start md:justify-between items-center max-md:px-[36px] md:pr-[21.5px] second-about ${
               isSecondActive ? "fade-in-normal" : "opacity-0"
-            } -mt-[40px]`}
+            } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
               title="evaluator network"
@@ -143,9 +159,9 @@ export default function Home() {
           </div>
           <div
             ref={thirdRef}
-            className={`flex flex-row w-full justify-between items-center pr-[21.5px] third-about ${
+            className={`flex flex-col-reverse md:flex-row w-full justify-start md:justify-between items-center max-md:px-[36px] md:pr-[21.5px] third-about ${
               isThirdActive ? "fade-in-normal" : "opacity-0"
-            } -mt-[40px]`}
+            } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
               title="knowledge graph"
@@ -155,9 +171,9 @@ export default function Home() {
           </div>
           <div
             ref={fourthRef}
-            className={`flex flex-row w-full justify-between items-center pr-[21.5px] fourth-about ${
+            className={`flex flex-col-reverse md:flex-row w-full justify-start md:justify-between items-center max-md:px-[36px] md:pr-[21.5px] fourth-about ${
               isFourthActive ? "fade-in-normal" : "opacity-0"
-            } -mt-[40px]`}
+            } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
               title="user feedback loops"
@@ -167,9 +183,9 @@ export default function Home() {
           </div>
           <div
             ref={fifthRef}
-            className={`flex flex-row w-full justify-between items-center pr-[21.5px] fifth-about ${
+            className={`flex flex-col-reverse md:flex-row w-full justify-start md:justify-between items-center max-md:px-[36px] md:pr-[21.5px] fifth-about ${
               isFifthActive ? "fade-in-normal" : "opacity-0"
-            } -mt-[40px]`}
+            } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
               title="mira chain"
@@ -180,10 +196,19 @@ export default function Home() {
         </div>
         <ResearchVectors />
         <FirstEcosystemCTA />
-        <div ref={comingSoonRef} className="mt-[104px] relative z-[1]">
+        <div
+          ref={comingSoonRef}
+          className="mt-[104px] relative z-[1] max-md:hidden"
+        >
           <ComingSoonSVG isActive={isComingSoonActive} />
         </div>
-        <Footer/>
+        <div
+          ref={comingSoonPhoneRef}
+          className="mt-[104px] md:hidden relative z-[1] max-md:pl-[28px] max-md:overflow-hidden"
+        >
+          <ComingSoonSVG isActive={isComingSoonPhoneActive} />
+        </div>
+        <Footer />
       </div>
     </main>
   );

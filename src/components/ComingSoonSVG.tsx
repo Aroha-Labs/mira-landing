@@ -9,6 +9,7 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
       setIsActiveSVG(isActive);
     }, 200);
   }, [isActive]);
+  
   return (
     <svg
       width="507"
