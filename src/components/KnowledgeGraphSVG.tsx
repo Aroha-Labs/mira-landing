@@ -80,14 +80,14 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
         <path
           opacity="0.3"
           d="M50 10L50 201"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-10"]}
         ></path>
         <path
           d="M98 -11.5L98 146"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-11"]}
@@ -95,14 +95,14 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
         <path
           opacity="0.3"
           d="M146 9L146 189.5"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-12"]}
         ></path>
         <path
           d="M254 98.5L50.5 98.5"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-13"]}
@@ -110,7 +110,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
         <path
           opacity="0.3"
           d="M201.5 49.5L0.5 49.5"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-14"]}
@@ -118,7 +118,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
         <path
           opacity="0.3"
           d="M201.5 145.5L0.5 145.5"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-15"]}
@@ -128,7 +128,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="48"
           r="4.25"
           fill="#E2EEFF"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-16"]}
         ></circle>
@@ -137,7 +137,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="99"
           r="4.25"
           fill="#79ABF6"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-17"]}
         ></circle>
@@ -146,7 +146,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="48"
           r="4.25"
           fill="#79ABF6"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-18"]}
         ></circle>
@@ -155,7 +155,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="98"
           r="4.25"
           fill="#79ABF6"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-19"]}
         ></circle>
@@ -164,7 +164,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="146"
           r="4.25"
           fill="#E2EEFF"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-20"]}
         ></circle>
@@ -173,7 +173,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="99"
           r="4.25"
           fill="#E2EEFF"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-21"]}
         ></circle>
@@ -182,7 +182,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
           cy="146"
           r="4.25"
           fill="#79ABF6"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.5"
           className={styles["svg-elem-22"]}
         ></circle>
@@ -193,7 +193,7 @@ const KnowledgeGraphSVG = ({ isActive }: { isActive: boolean }) => {
         width="201.13"
         height="201.13"
         rx="100.565"
-        stroke="#337FF1"
+        stroke="#4F95FF"
         stroke-width="0.5"
         className={styles["svg-elem-23"]}
       ></rect>

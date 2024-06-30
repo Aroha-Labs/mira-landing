@@ -4,18 +4,20 @@
  * W. https://svgartista.net
  **************************************************/
 
-svg .svg-elem-1 {
+ svg .svg-elem-1 {
     stroke-dashoffset: 341px;
-    stroke-dasharray: 341px;
-    -webkit-transition: stroke-dashoffset 0.5s linear 0s,
-        fill 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.1s;
-    transition: stroke-dashoffset 0.5s linear 0s,
-        fill 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.1s;
-}
-
-svg.active .svg-elem-1 {
+    stroke-dasharray: 3.1 3.1;
+    opacity: 0;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
+                        opacity 0.1s linear 0s;
+            transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
+                        opacity 0.1s linear 0s;
+  }
+  
+  svg.active .svg-elem-1 {
     stroke-dashoffset: 0;
-}
+    opacity: 1;
+  }
 
 svg .svg-elem-2 {
     stroke-dashoffset: 634.4161376953125px;

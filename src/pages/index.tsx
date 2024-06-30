@@ -6,14 +6,13 @@ import LineSVG from "@/components/LineSVG";
 import MainDiagramSVG from "@/components/MainDiagramSVG";
 import CommonAboutComponent from "@/components/CommonAboutComponent";
 import FlowSVGFirst from "@/components/FlowSVGFirst";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import EvaluatorNetworkSVG from "@/components/EvaluatorNetworkSVG";
 import KnowledgeGraphSVG from "@/components/KnowledgeGraphSVG";
 import UserFeedbackSVG from "@/components/UserFeedbackSVG";
 import MiraChainSVG from "@/components/MiraChainSVG";
 import ResearchVectors from "@/components/ResearchVectors";
-import LineSVGBottom from "@/components/LineSVGBottom";
 import FirstEcosystemCTA from "@/components/FirstEcosystemCTA";
 import ComingSoonSVG from "@/components/ComingSoonSVG";
 import Footer from "@/components/Footer";
@@ -61,6 +60,8 @@ export default function Home() {
     threshold: 0.2,
   });
 
+  const researchVectorsRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     if (inView) {
       setIsActive(true);
@@ -103,30 +104,48 @@ export default function Home() {
     }
   }, [comingSoonPhoneInView]);
 
+  const handleResearchClick = () => {
+    if (researchVectorsRef.current) {
+      researchVectorsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <main
       className={`flex h-screen overflow-y-scroll overflow-x-hidden flex-col bg-white items-center justify-start ${workSans.className}`}
     >
       <div className="w-full md:max-w-[574px] flex flex-col justify-start items-start relative">
-        <div className="absolute w-full top-0 left-[35px] max-md:hidden">
+        <div className="absolute w-full top-0 left-[83px] max-md:hidden">
           <LineSVG />
         </div>
-        <Navbar />
-        <div className="flex flex-col justify-start items-start pl-[30px] md:pl-[79px] mt-[76px] fade-in-second relative z-[1]">
-          <p className="text-[#3284FF] font-semibold text-[20px] leading-[19px]">
-            *mira
-          </p>
+        <Navbar onResearchClick={handleResearchClick} />
+        <div className="flex flex-col justify-start max-md:w-full min-[450px]:max-md:items-center max-md:items-start items-start pl-[30px] md:pl-[129px] mt-[76px] fade-in-second relative z-[1]">
+          <div className="flex flex-row justify-start items-start w-full max-md:max-w-[307px]">
+            <span className="w-6 h-6 rounded-full bg-[#4F95FF]"></span>
+          </div>
+
           <p
-            className={`max-w-[311px] ${ibmPlexSerif.className} text-[#1E2024] text-[24px] leading-[23px] font-semibold mt-3`}
+            className={`max-w-[345px] max-md:max-w-[307px] ${ibmPlexSerif.className} text-[#1E2024] text-[24px] leading-[23px] mt-6 font-semibold`}
           >
-            Decentralised Infrastructure to expand access to advanced AI
+            Decentralised Infrastructure to Universalise AI
           </p>
           <p className="mt-[28px] text-[#455164] text-[14px] leading-[17px] max-w-[307px]">
-            Build complex AI products. Contribute and monetise AI resources.
+            Build complex AI products.
+            <br />
+            Contribute and monetise AI resources.
+            <br />
             Maintained and advanced by the community.
           </p>
+          <div className="flex max-md:max-w-[307px] flex-col md:flex-row max-md:w-full justify-start items-start md:items-center mt-7 gap-x-3 max-md:gap-y-3">
+            <button className="rounded-full max-md:w-full text-white font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#4F95FF]">
+              Build on Mira
+            </button>
+            <button className="rounded-full max-md:w-full text-[#4F95FF] font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#EDF4FF] border border-solid border-[#CDE1FF]">
+              Try <b>Klok</b> — Our first ecosystem app
+            </button>
+          </div>
         </div>
-        <div className="relative z-[1] mt-[39px] max-md:hidden">
+        <div className="relative z-[1] mt-[62px] max-md:hidden">
           <MainDiagramSVG />
         </div>
         <div className="relative z-[1] mt-[68px] md:hidden w-full flex justify-center items-center">
@@ -140,8 +159,8 @@ export default function Home() {
             }`}
           >
             <CommonAboutComponent
-              title="flow market"
-              description="A novel AI ecosystem designed for collaboration, openness, and unparalleled scalability"
+              title="Flow market"
+              description="Community-sourced & mantained workflows to elevate the AI developer experience"
             />
             <FlowSVGFirst isActive={isActive} />
           </div>
@@ -152,8 +171,8 @@ export default function Home() {
             } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
-              title="evaluator network"
-              description="A novel AI ecosystem designed for collaboration, openness, and unparalleled scalability"
+              title="Evaluator network"
+              description="Independant, incentivised & accountable evaluators to enable trusted discovery & rating of Flows"
             />
             <EvaluatorNetworkSVG isActive={isSecondActive} />
           </div>
@@ -164,8 +183,8 @@ export default function Home() {
             } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
-              title="knowledge graph"
-              description="A novel AI ecosystem designed for collaboration, openness, and unparalleled scalability"
+              title="Knowledge graph"
+              description="Framework for community-sourcing structured knowledge graphs for ML operations"
             />
             <KnowledgeGraphSVG isActive={isThirdActive} />
           </div>
@@ -176,8 +195,8 @@ export default function Home() {
             } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
-              title="user feedback loops"
-              description="A novel AI ecosystem designed for collaboration, openness, and unparalleled scalability"
+              title="User insights system"
+              description="Real-time Feedback framework to constantly adapt ML models to your users' preferences"
             />
             <UserFeedbackSVG isActive={isFourthActive} />
           </div>
@@ -188,13 +207,18 @@ export default function Home() {
             } md:-mt-[40px] mt-[80px]`}
           >
             <CommonAboutComponent
-              title="mira chain"
-              description="A novel AI ecosystem designed for collaboration, openness, and unparalleled scalability"
+              title="Mira chain"
+              description="Trusted blockchain layer for sovereign ownership of AI resources & attribution of value creation"
             />
             <MiraChainSVG isActive={isFifthActive} />
           </div>
         </div>
-        <ResearchVectors />
+        <div
+          ref={researchVectorsRef}
+          className="relative z-[1] flex justify-center w-full items-start"
+        >
+          <ResearchVectors />
+        </div>
         <FirstEcosystemCTA />
         <div
           ref={comingSoonRef}

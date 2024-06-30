@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { IBM_Plex_Serif } from "next/font/google";
 import { useInView } from "react-intersection-observer";
 import LineSVGBottom from "./LineSVGBottom";
@@ -12,104 +12,168 @@ const ResearchVectors = () => {
     threshold: 0.8,
   });
 
+  const spansRef = useRef<HTMLSpanElement[]>([]);
+  const [activeIndex, setActiveIndex] = useState(0);
+
   useEffect(() => {
     if (inView) {
       setIsInView(true);
     }
   }, [inView]);
 
+  useEffect(() => {
+    if (isInView) {
+      const interval = setInterval(() => {
+        setActiveIndex(
+          (prevIndex) => (prevIndex + 1) % spansRef.current.length
+        );
+      }, 4000);
+      return () => clearInterval(interval);
+    }
+  }, [isInView]);
+
+  const svgs = [
+    <svg
+      key="svg1"
+      width="31"
+      height="27"
+      viewBox="0 0 31 27"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.3757 9.13538L15.5126 17.712M20.3757 9.13538L25.2713 17.712M20.3757 9.13538L10.6602 9.11342M20.3757 9.13538L15.5126 1L10.6602 9.11342M15.5126 17.712L20.3757 26.2556M15.5126 17.712L5.81855 17.712M20.3757 26.2556L25.2713 17.712M20.3757 26.2556L10.6817 26.2776M20.3757 26.2556L30 26.2556L25.2713 17.712M10.6602 9.11342L5.81855 17.712M5.81855 17.712L10.6817 26.2776M5.81855 17.712L1.12404 26.2776L10.6817 26.2776"
+        stroke="#4F95FF"
+      />
+    </svg>,
+    <svg
+      key="svg2"
+      width="30"
+      height="24"
+      viewBox="0 0 30 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.765381 17.6939V6.61118M0.765381 17.6939L9.71286 12.7117M0.765381 17.6939L9.71286 23.4894M0.765381 6.61118L9.71286 12.7117M0.765381 6.61118L9.71286 0.51062M9.71286 12.7117V0.51062M9.71286 12.7117H20.2872M9.71286 12.7117V23.4894M9.71286 0.51062H20.2872M20.2872 12.7117V0.51062M20.2872 12.7117L29.2346 7.01788M20.2872 12.7117L29.2346 17.6939M20.2872 12.7117V23.4894M20.2872 0.51062L29.2346 7.01788M29.2346 7.01788V17.6939M9.71286 23.4894H20.2872M29.2346 17.6939L20.2872 23.4894"
+        stroke="#4F95FF"
+      />
+    </svg>,
+    <svg
+      key="svg3"
+      width="30"
+      height="34"
+      viewBox="0 0 30 34"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14.9981 0.999757L1.12109 9.00228L1.12173 25.0158L14.9981 32.9998L28.8791 25.0158V8.99274L14.9981 0.999757Z"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M15.002 1.02363V32.9685"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M28.8372 9.0147L1.16602 24.9768"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M1.16602 9.0147L28.8372 24.9768"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+    </svg>,
+    <svg
+      key="svg4"
+      width="30"
+      height="34"
+      viewBox="0 0 30 34"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M28.8759 24.9927L14.995 17.0002L1.66699 25.016L14.995 33L28.8764 25.016L28.8759 16.996"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M1.12402 8.99747L15.0012 17L28.8821 9.00701L15.0012 0.999717L1.12402 9.00224L1.12456 16.9958"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M1.11856 17.0007L14.9873 24.9629C14.9931 24.9629 14.9979 24.9629 15.0037 24.9629L28.8756 16.9996C28.8756 16.9975 28.8756 16.9969 28.8756 16.9948L14.9952 9.03205L1.11856 16.9991C1.11803 16.9996 1.11803 17.0001 1.11856 17.0007Z"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M14.9963 1.00682V9.02155"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+      <path
+        d="M14.9963 24.9782V32.9934"
+        stroke="#4F95FF"
+        stroke-miterlimit="10"
+      />
+    </svg>,
+  ];
+
+  const titles = [
+    "Game theoretic ML systems",
+    "Verifiable inference",
+    "Stake-based model evaluation",
+    "on-chain AI resource markets",
+  ];
+
+  const descriptions = [
+    "Getting the best out of leveraging model ensembels and adversarial systems using economic primitives.",
+    "Striking a balance between multiple truth systems for high performance verifiability of AI operations.",
+    "Building robust, trusted & self improving eval systems for a multi-model.",
+    "novel attribution systems for collaboration of AI resources at scale.",
+  ];
+
   return (
     <div
       ref={ref}
-      className={`w-full flex flex-col relative justify-start items-center mt-[157px] md:pr-[46px] ${
+      className={`w-full flex flex-col relative justify-start items-center mt-[157px] md:pl-[20px] ${
         isInView ? "fade-in-normal" : "opacity-0"
       }`}
     >
       <p
-        className={`w-[102px] text-[#337FF1] text-center font-semibold text-[20px] leading-[19px] ${ibmPlexSerif.className}`}
+        className={`w-[102px] text-[#4F95FF] text-center font-semibold text-[20px] leading-[19px] ${ibmPlexSerif.className}`}
       >
         Research Vectors
       </p>
       <div className="w-full flex flex-row justify-center items-center gap-x-1 mt-[26px]">
-        <span className="w-16 h-16 rounded-full bg-[#EBF4FF] border border-solid border-transparent hover:border-[#337FF1] hover:bg-[#F5F9FF] hover:rotate-45 transition-all duration-300 flex justify-center items-center cursor-pointer">
-          <svg
-            width="41"
-            height="39"
-            viewBox="0 0 41 39"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+        {svgs.map((svg, index) => (
+          <span
+            key={index}
+            ref={(el) => {
+              if (el) spansRef.current[index] = el;
+            }}
+            className={`w-16 h-16 rounded-full bg-[#EBF4FF] flex justify-center items-center cursor-pointer ${
+              activeIndex === index
+                ? "border border-[#4F95FF] bg-[#F5F9FF]"
+                : "border-2 border-transparent"
+            } transition-all duration-300`}
           >
-            <path
-              d="M13.8982 27.5L1.39818 19.5L16.8982 12.5M13.8982 27.5L16.8982 12.5M13.8982 27.5L5.89818 38.5H21.8982M13.8982 27.5L21.8982 38.5M13.8982 27.5L27.8982 24.5M16.8982 12.5L27.8982 24.5M16.8982 12.5L27.8982 1.5L39.3982 12.5L27.8982 24.5M21.8982 38.5L27.8982 24.5"
-              stroke="#337FF1"
-            />
-          </svg>
-        </span>
-        <span className="w-16 h-16 rounded-full bg-[#EBF4FF] border border-solid border-transparent hover:border-[#337FF1] hover:bg-[#F5F9FF] hover:rotate-45 transition-all duration-300 flex justify-center items-center cursor-pointer">
-          <svg
-            width="41"
-            height="40"
-            viewBox="0 0 41 40"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.8982 13.25V26.25M13.8982 13.25H27.8982M13.8982 13.25L20.8982 1.25L27.8982 13.25M13.8982 13.25L1.39818 19.75L13.8982 26.25M13.8982 26.25H27.8982M13.8982 26.25L20.3982 38.75L27.8982 26.25M27.8982 26.25V13.25M27.8982 26.25L39.3982 19.75L27.8982 13.25"
-              stroke="#337FF1"
-            />
-          </svg>
-        </span>
-        <span className="w-16 h-16 rounded-full bg-[#EBF4FF] border border-solid border-transparent hover:border-[#337FF1] hover:bg-[#F5F9FF] hover:rotate-45 transition-all duration-300 flex justify-center items-center cursor-pointer">
-          <svg
-            width="45"
-            height="30"
-            viewBox="0 0 45 30"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.89818 14.75L0.898178 28.75L14.3982 22.25M3.89818 14.75L14.3982 22.25M3.89818 14.75L14.8982 7.25M14.3982 22.25L14.8982 7.25M14.3982 22.25H29.8982M14.8982 7.25H29.8982M29.8982 22.25V7.25M29.8982 22.25L40.8982 15.25M29.8982 7.25L40.8982 15.25M29.8982 7.25L43.8982 1.25L40.8982 15.25"
-              stroke="#337FF1"
-            />
-          </svg>
-        </span>
-        <span className="w-16 h-16 rounded-full bg-[#EBF4FF] border border-solid border-transparent hover:border-[#337FF1] hover:bg-[#F5F9FF] hover:rotate-45 transition-all duration-300 flex justify-center items-center cursor-pointer">
-          <svg
-            width="40"
-            height="41"
-            viewBox="0 0 40 41"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.3779 14.2454L20.1392 1.59573L27.4322 16.96M12.3779 14.2454L27.4322 16.96M12.3779 14.2454L1.22802 6.45568L1.53181 22.4528M12.3779 14.2454L1.53181 22.4528M12.3779 14.2454L15.6432 28.1859M27.4322 16.96L15.6432 28.1859M27.4322 16.96L38.6391 27.7492L27.8594 39.456L15.6432 28.1859M1.53181 22.4528L15.6432 28.1859"
-              stroke="#337FF1"
-            />
-          </svg>
-        </span>
-        <span className="w-16 h-16 rounded-full bg-[#EBF4FF] border border-solid border-transparent hover:border-solid hover:border-[#337FF1] hover:bg-[#F5F9FF] hover:rotate-45 transition-all duration-300 flex justify-center items-center cursor-pointer">
-          <svg
-            width="29"
-            height="29"
-            viewBox="0 0 29 29"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M14.7786 5.63085L5.58621 14.8232M14.7786 5.63085L24.6781 15.5303M14.7786 5.63085L28.2136 2.09531L24.6781 15.5303M14.7786 5.63085L1.34357 1.38821L5.58621 14.8232M5.58621 14.8232L15.4857 24.7227M5.58621 14.8232L1.34357 28.2583L15.4857 24.7227M15.4857 24.7227L24.6781 15.5303M15.4857 24.7227L28.2136 28.2583L24.6781 15.5303"
-              stroke="#337FF1"
-            />
-          </svg>
-        </span>
+            {svg}
+          </span>
+        ))}
       </div>
-      <p className="mt-[35px] text-center text-[#337FF1] font-medium text-[14px] leading-[13px]">
-        blockchain substrate
+      <p className="mt-[35px] text-center text-[#4F95FF] font-medium text-[14px] leading-[13px]">
+        {titles[activeIndex]}
       </p>
-      <p className="mt-[13px] max-w-[224px] tracking-[-2%] text-center text-[#455164] font-normal text-[14px] leading-[17px]">
-        A novel AI ecosystem designed for collaboration, openness, and
-        unparalleled scalability
+      <p className="mt-[13px] max-w-[224px] min-h-[68px] tracking-[-2%] text-center text-[#455164] font-normal text-[14px] leading-[17px]">
+        {descriptions[activeIndex]}
       </p>
-      <div className="absolute w-full top-[282px] left-[35px] max-md:hidden">
+      <div className="absolute w-full top-[282px] left-[63px] max-md:hidden">
         <LineSVGBottom />
       </div>
     </div>

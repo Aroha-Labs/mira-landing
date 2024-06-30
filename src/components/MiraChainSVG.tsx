@@ -78,14 +78,14 @@ const MiraChainSVG = ({ isActive }: { isActive: boolean }) => {
         </g>
         <path
           d="M98 141V204"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-10"]}
         ></path>
         <path
           d="M98 -2.99997V60"
-          stroke="#337FF1"
+          stroke="#4F95FF"
           stroke-width="0.75"
           stroke-dasharray="3.1 3.1"
           className={styles["svg-elem-11"]}
@@ -143,7 +143,7 @@ const MiraChainSVG = ({ isActive }: { isActive: boolean }) => {
         width="201.13"
         height="201.13"
         rx="100.565"
-        stroke="#337FF1"
+        stroke="#4F95FF"
         stroke-width="0.5"
         className={styles["svg-elem-21"]}
       ></rect>
