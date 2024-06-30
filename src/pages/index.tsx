@@ -137,10 +137,10 @@ export default function Home() {
             Maintained and advanced by the community.
           </p>
           <div className="flex max-md:max-w-[307px] flex-col md:flex-row max-md:w-full justify-start items-start md:items-center mt-7 gap-x-3 max-md:gap-y-3">
-            <button className="rounded-full max-md:w-full text-white font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#4F95FF]">
+            <button className="rounded-full max-md:w-full text-white font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#4F95FF] hover:bg-[#4F88DD] transition-all duration-300">
               Build on Mira
             </button>
-            <button className="rounded-full max-md:w-full text-[#4F95FF] font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#EDF4FF] border border-solid border-[#CDE1FF]">
+            <button className="rounded-full max-md:w-full text-[#4F95FF] font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#EDF4FF] border border-solid border-[#CDE1FF] hover:bg-[#DAE9FF] transition-all duration-300">
               Try <b>Klok</b> — Our first ecosystem app
             </button>
           </div>

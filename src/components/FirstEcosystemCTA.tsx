@@ -44,7 +44,7 @@ const FirstEcosystemCTA = () => {
           A novel AI ecosystem designed for collaboration, openness, and
           unparalleled scalability
         </p>
-        <button className="rounded-full w-fit px-[16px] py-[8px] text-[#FBFDFF] text-[14px] font-medium tracking-[-2%] leading-[17px] bg-[#4F95FF]">
+        <button className="rounded-full w-fit px-[16px] py-[8px] text-[#FBFDFF] text-[14px] font-medium tracking-[-2%] leading-[17px] bg-[#4F95FF] hover:bg-[#4F88DD] transition-all duration-300">
           Try it out now
         </button>
       </div>
