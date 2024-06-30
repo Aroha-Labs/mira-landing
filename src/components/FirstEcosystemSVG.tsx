@@ -33,7 +33,7 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
           fill="#F9FCFF"
           className={styles["svg-elem-2"]}
         ></rect>
-        <g opacity="0.67">
+        <g opacity="0">
           <path
             d="M348.487 0V485.092"
             stroke="#E3EEFF"
@@ -59,7 +59,7 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
             className={styles["svg-elem-6"]}
           ></path>
         </g>
-        <g opacity="0.67">
+        <g opacity="0">
           <path
             d="M784.38 49.1997L299.288 49.1997"
             stroke="#E3EEFF"
