@@ -34,7 +34,7 @@ const FirstEcosystemCTA = () => {
 
   return (
     <div className="w-full md:pl-[73px] mt-[141px] flex max-md:flex-col-reverse max-md:w-full justify-start md:justify-between items-center md:items-start relative">
-      <div className={`md:pl-[37px] relative z-[1] flex flex-col max-md:items-center gap-[24px] md:flex-1 mt-[32px] md:mt-[86px] md:absolute ${isActive || isActivePhone ? "fade-in-normal" : "opacity-0"}`}>
+      <div className={`relative z-[1] flex flex-col max-md:items-center gap-[24px] md:flex-1 mt-[32px] md:mt-[86px] md:absolute ${isActive || isActivePhone ? "fade-in-normal" : "opacity-0"}`}>
         <p
           className={`text-[20px] font-semibold leading-[19px] text-[#464C55] w-[167px] text-left max-md:text-center  ${ibmPlexSerif.className}`}
         >

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-[110px] mb-[47px] md:mb-[122px] md:pl-[108px] flex flex-col justify-start items-center max-md:w-full md:items-start">
+    <div className="mt-[90px] mb-[47px] md:mb-[122px] md:pl-[108px] flex flex-col justify-start items-center max-md:w-full md:items-start">
       <p className="text-[#697383] text-[14px] leading-[13.3px]">
         © 2024 Mira. All rights reserved.
       </p>

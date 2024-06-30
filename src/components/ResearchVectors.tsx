@@ -173,7 +173,7 @@ const ResearchVectors = () => {
       <p className="mt-[13px] max-w-[224px] min-h-[68px] tracking-[-2%] text-center text-[#455164] font-normal text-[14px] leading-[17px]">
         {descriptions[activeIndex]}
       </p>
-      <div className="absolute w-full top-[282px] left-[63px] max-md:hidden">
+      <div className="absolute w-full top-[282px] left-[36px] max-md:hidden">
         <LineSVGBottom />
       </div>
     </div>

@@ -16,7 +16,7 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
       viewBox="0 0 536 202"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${isActiveSVG ? styles['active'] : ''}`}
+      className={`${isActiveSVG ? styles['active'] : ''} -ml-[35px]`}
     >
       <path
         d="M0 49L339 49"
