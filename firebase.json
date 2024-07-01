@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "mira-landing-3hx3o",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
