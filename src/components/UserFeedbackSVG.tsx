@@ -16,9 +16,9 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
       viewBox="0 0 202 203"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${isActiveSVG ? styles['active'] : ''}`}
+      className={`${isActiveSVG ? styles["active"] : ""}`}
     >
-      <g clip-path="url(#clip0_807_407)">
+      <g clipPath="url(#clip0_807_407)">
         <rect
           y="0.800018"
           width="201.63"
@@ -31,25 +31,25 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M49.4874 0.800018V485.892"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-2"]}
           ></path>
           <path
             d="M97.824 0.800018V485.892"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-3"]}
           ></path>
           <path
             d="M146.161 0.800018V485.892"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-4"]}
           ></path>
           <path
             d="M194.497 0.800018V485.892"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-5"]}
           ></path>
         </g>
@@ -57,25 +57,25 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M485.38 49.9997L0.287797 49.9997"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-6"]}
           ></path>
           <path
             d="M485.38 98.3363L0.287797 98.3363"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-7"]}
           ></path>
           <path
             d="M485.38 146.673L0.287797 146.673"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-8"]}
           ></path>
           <path
             d="M485.38 195.009L0.287797 195.009"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-9"]}
           ></path>
         </g>
@@ -92,15 +92,15 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
         <path
           d="M89.5472 90.7036L8.45296 -3.1032"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="4 4"
+          strokeWidth="0.75"
+          strokeDasharray="4 4"
           className={styles["svg-elem-12"]}
         ></path>
         <path
           d="M97.9986 230.188L97.9996 -15.2"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="4 4"
+          strokeWidth="0.75"
+          strokeDasharray="4 4"
           className={styles["svg-elem-13"]}
         ></path>
         <circle
@@ -109,7 +109,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           r="9.25"
           fill="#79ABF6"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-14"]}
         ></circle>
         <circle
@@ -119,7 +119,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           transform="rotate(59.629 153.829 97.3)"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-15"]}
         ></circle>
         <circle
@@ -129,7 +129,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           transform="rotate(59.629 129.093 97.0889)"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-16"]}
         ></circle>
         <circle
@@ -139,7 +139,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           transform="rotate(59.629 45.0927 39.0889)"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-17"]}
         ></circle>
         <circle
@@ -149,7 +149,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           transform="rotate(59.629 178.565 97.5112)"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-18"]}
         ></circle>
         <rect
@@ -168,7 +168,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           height="19.5"
           rx="1.75"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-20"]}
         ></rect>
         <circle
@@ -178,7 +178,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           transform="rotate(59.629 97.9735 121.773)"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-21"]}
         ></circle>
         <circle
@@ -188,7 +188,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           transform="rotate(59.629 97.9735 136.72)"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-22"]}
         ></circle>
         <rect
@@ -209,7 +209,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           rx="1.75"
           transform="rotate(49.1573 64.6285 45.2174)"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-24"]}
         ></rect>
         <rect
@@ -230,7 +230,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
           rx="1.75"
           transform="rotate(90 40.25 94.55)"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-26"]}
         ></rect>
       </g>
@@ -241,7 +241,7 @@ const UserFeedbackSVG = ({ isActive }: { isActive: boolean }) => {
         height="201.13"
         rx="100.565"
         stroke="#4F95FF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
         className={styles["svg-elem-27"]}
       ></rect>
       <defs>

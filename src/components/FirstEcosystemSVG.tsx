@@ -16,15 +16,15 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
       viewBox="0 0 536 202"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${isActiveSVG ? styles['active'] : ''} -ml-[35px]`}
+      className={`${isActiveSVG ? styles["active"] : ""} -ml-[35px]`}
     >
       <path
         d="M0 49L339 49"
         stroke="#7BAEFF"
-        stroke-dasharray="4 4"
-        className={styles["svg-elem-1"] }
+        strokeDasharray="4 4"
+        className={styles["svg-elem-1"]}
       ></path>
-      <g clip-path="url(#clip0_807_157)">
+      <g clipPath="url(#clip0_807_157)">
         <rect
           x="299"
           width="201.63"
@@ -37,25 +37,25 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M348.487 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-3"]}
           ></path>
           <path
             d="M396.824 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-4"]}
           ></path>
           <path
             d="M445.161 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-5"]}
           ></path>
           <path
             d="M493.497 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-6"]}
           ></path>
         </g>
@@ -63,25 +63,25 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M784.38 49.1997L299.288 49.1997"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-7"]}
           ></path>
           <path
             d="M784.38 97.5363L299.288 97.5362"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-8"]}
           ></path>
           <path
             d="M784.38 145.873L299.288 145.873"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-9"]}
           ></path>
           <path
             d="M784.38 194.209L299.288 194.209"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-10"]}
           ></path>
         </g>
@@ -103,15 +103,15 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
             className={styles["svg-elem-11"]}
           ></rect>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M399.272 56C411.626 56 422.997 60.2047 432.033 67.2609L355.597 139.783C349.549 131.141 346 120.621 346 109.272C346 79.8508 369.851 56 399.272 56ZM441.207 142.13C448.31 133.079 452.545 121.67 452.545 109.272C452.545 97.2321 448.55 86.1247 441.814 77.2032L406.031 111.155L441.207 142.13Z"
             className={styles["svg-elem-12"]}
           ></path>
         </mask>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M399.272 56C411.626 56 422.997 60.2047 432.033 67.2609L355.597 139.783C349.549 131.141 346 120.621 346 109.272C346 79.8508 369.851 56 399.272 56ZM441.207 142.13C448.31 133.079 452.545 121.67 452.545 109.272C452.545 97.2321 448.55 86.1247 441.814 77.2032L406.031 111.155L441.207 142.13Z"
           fill="#D7E7FF"
           className={styles["svg-elem-13"]}
@@ -126,28 +126,28 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
           d="M419.645 65.8366C376.538 50.9746 341.401 86.4134 355.44 125.593C356.135 127.533 358.575 128.042 360.087 126.643L420.579 70.6659C422.181 69.1836 421.709 66.5479 419.645 65.8366Z"
           fill="#BAD6FF"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-15"]}
         ></path>
         <path
           d="M412.603 68.5638C377.763 57.1883 349.539 85.5167 360.334 117.091C360.999 119.036 363.435 119.554 364.947 118.161L413.558 73.3704C415.167 71.8884 414.683 69.2427 412.603 68.5638Z"
           fill="#96BEF9"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-16"]}
         ></path>
         <path
           d="M437.72 87.6569L419.153 108.741C418.056 109.987 418.18 111.888 419.43 112.982L436.638 128.03C438.085 129.296 440.337 128.892 441.145 127.147C446.734 115.068 448.16 101.138 442.401 88.2528C441.561 86.3718 439.082 86.1107 437.72 87.6569Z"
           fill="#BAD6FF"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-17"]}
         ></path>
         <path
           d="M435.813 94.4238L423.753 108.119C422.655 109.366 422.779 111.267 424.03 112.36L435.02 121.972C436.468 123.238 438.722 122.834 439.486 121.069C443.01 112.923 443.897 103.7 440.422 95.0528C439.654 93.1411 437.175 92.8775 435.813 94.4238Z"
           fill="#96BEF9"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-18"]}
         ></path>
       </g>
@@ -158,7 +158,7 @@ const FirstEcosystemSVG = ({ isActive }: { isActive: boolean }) => {
         height="201.13"
         rx="100.565"
         stroke="#4F95FF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
         className={styles["svg-elem-19"]}
       ></rect>
       <defs>

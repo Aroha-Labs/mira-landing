@@ -17,7 +17,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={isActiveSVG ? styles["active"] : ""}
     >
-      <g clip-path="url(#clip0_807_286)">
+      <g clipPath="url(#clip0_807_286)">
         <rect
           width="201.63"
           height="201.63"
@@ -29,25 +29,25 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M49.4874 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-2"]}
           ></path>
           <path
             d="M97.824 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-3"]}
           ></path>
           <path
             d="M146.161 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-4"]}
           ></path>
           <path
             d="M194.497 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-5"]}
           ></path>
         </g>
@@ -55,61 +55,61 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M485.38 49.1997L0.287797 49.1997"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-6"]}
           ></path>
           <path
             d="M485.38 97.5363L0.287797 97.5362"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-7"]}
           ></path>
           <path
             d="M485.38 145.873L0.287797 145.873"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-8"]}
           ></path>
           <path
             d="M485.38 194.209L0.287797 194.209"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-9"]}
           ></path>
         </g>
         <path
           d="M154.618 61.2819L154.618 134.282"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="3.1 3.1"
+          strokeWidth="0.75"
+          strokeDasharray="3.1 3.1"
           className={styles["svg-elem-10"]}
         ></path>
         <path
           d="M156.618 65.7819L60.5 115.5"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="3.1 3.1"
+          strokeWidth="0.75"
+          strokeDasharray="3.1 3.1"
           className={styles["svg-elem-11"]}
         ></path>
         <path
           d="M97.394 36.5L97.394 173"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="3.1 3.1"
+          strokeWidth="0.75"
+          strokeDasharray="3.1 3.1"
           className={styles["svg-elem-12"]}
         ></path>
         <path
           d="M60.5 74L154.5 134"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="3.1 3.1"
+          strokeWidth="0.75"
+          strokeDasharray="3.1 3.1"
           className={styles["svg-elem-13"]}
         ></path>
         <path
           d="M57.6184 76.7819L57.6182 114.282"
           stroke="#4F95FF"
-          stroke-width="0.75"
-          stroke-dasharray="3.1 3.1"
+          strokeWidth="0.75"
+          strokeDasharray="3.1 3.1"
           className={styles["svg-elem-14"]}
         ></path>
         <circle
@@ -118,7 +118,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           r="8.25"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-15"]}
         ></circle>
         <circle
@@ -127,7 +127,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           r="8.25"
           fill="#79ABF6"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-16"]}
         ></circle>
         <circle
@@ -136,7 +136,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           r="8.25"
           fill="#E2EEFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-17"]}
         ></circle>
         <rect
@@ -147,7 +147,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           rx="3.75"
           fill="#79ABF6"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-18"]}
         ></rect>
         <rect
@@ -158,7 +158,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           rx="3.75"
           fill="#79ABF6"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-19"]}
         ></rect>
         <circle
@@ -167,7 +167,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
           r="8.25"
           fill="#79ABF6"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-20"]}
         ></circle>
       </g>
@@ -178,7 +178,7 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
         height="201.13"
         rx="100.565"
         stroke="#4F95FF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
         className={styles["svg-elem-21"]}
       ></rect>
       <defs>
@@ -197,4 +197,3 @@ const FlowSVGFirst = ({ isActive }: { isActive: boolean }) => {
 };
 
 export default FlowSVGFirst;
-

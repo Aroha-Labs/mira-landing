@@ -9,6 +9,7 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
       setIsActiveSVG(isActive);
     }, 200);
   }, [isActive]);
+
   return (
     <svg
       width="202"
@@ -16,9 +17,9 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
       viewBox="0 0 202 202"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${isActiveSVG ? styles['active'] : ''}`}
+      className={`${isActiveSVG ? styles["active"] : ""}`}
     >
-      <g clip-path="url(#clip0_885_329)">
+      <g clipPath="url(#clip0_885_329)">
         <rect
           x="0.200012"
           width="201.63"
@@ -31,25 +32,25 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M49.6874 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-2"]}
           ></path>
           <path
             d="M98.024 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-3"]}
           ></path>
           <path
             d="M146.361 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-4"]}
           ></path>
           <path
             d="M194.697 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-5"]}
           ></path>
         </g>
@@ -57,25 +58,25 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M485.58 49.1997L0.487993 49.1997"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-6"]}
           ></path>
           <path
             d="M485.58 97.5363L0.487993 97.5362"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-7"]}
           ></path>
           <path
             d="M485.58 145.873L0.487993 145.873"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-8"]}
           ></path>
           <path
             d="M485.58 194.209L0.487993 194.209"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-9"]}
           ></path>
         </g>
@@ -97,15 +98,15 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
             className={styles["svg-elem-10"]}
           ></rect>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M100.472 56C112.826 56 124.197 60.2047 133.233 67.261L56.7975 139.784C50.7489 131.142 47.2 120.621 47.2 109.272C47.2 79.8508 71.0509 56 100.472 56ZM142.408 142.13C149.51 133.078 153.745 121.67 153.745 109.272C153.745 97.2322 149.75 86.1249 143.015 77.2034L107.232 111.154L142.408 142.13Z"
             className={styles["svg-elem-11"]}
           ></path>
         </mask>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M100.472 56C112.826 56 124.197 60.2047 133.233 67.261L56.7975 139.784C50.7489 131.142 47.2 120.621 47.2 109.272C47.2 79.8508 71.0509 56 100.472 56ZM142.408 142.13C149.51 133.078 153.745 121.67 153.745 109.272C153.745 97.2322 149.75 86.1249 143.015 77.2034L107.232 111.154L142.408 142.13Z"
           fill="#D7E7FF"
           className={styles["svg-elem-12"]}
@@ -120,28 +121,28 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
           d="M120.845 65.8364C77.7372 50.9744 42.6009 86.4132 56.6398 125.593C57.3348 127.532 59.7747 128.042 61.2869 126.643L121.778 70.6657C123.38 69.1834 122.908 66.5477 120.845 65.8364Z"
           fill="#BAD6FF"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-14"]}
         ></path>
         <path
           d="M113.803 68.5638C78.9632 57.1883 50.7392 85.5167 61.534 117.091C62.199 119.036 64.6354 119.554 66.1471 118.161L114.758 73.3704C116.367 71.8884 115.883 69.2427 113.803 68.5638Z"
           fill="#96BEF9"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-15"]}
         ></path>
         <path
           d="M138.92 87.6569L120.353 108.741C119.256 109.987 119.38 111.888 120.63 112.982L137.838 128.03C139.285 129.296 141.537 128.892 142.345 127.147C147.934 115.068 149.36 101.138 143.601 88.2528C142.761 86.3718 140.282 86.1106 138.92 87.6569Z"
           fill="#BAD6FF"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-16"]}
         ></path>
         <path
           d="M137.013 94.4238L124.953 108.119C123.855 109.366 123.979 111.267 125.23 112.36L136.22 121.972C137.668 123.238 139.922 122.834 140.686 121.069C144.21 112.923 145.097 103.7 141.623 95.0528C140.854 93.1411 138.375 92.8775 137.013 94.4238Z"
           fill="#96BEF9"
           stroke="#B0D0FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-17"]}
         ></path>
       </g>
@@ -152,7 +153,7 @@ const FirstEcosystemPhone = ({ isActive }: { isActive: boolean }) => {
         height="201.13"
         rx="100.565"
         stroke="#4F95FF"
-        stroke-width="0.5"
+        strokeWidth="0.5"
         className={styles["svg-elem-18"]}
       ></rect>
       <defs>

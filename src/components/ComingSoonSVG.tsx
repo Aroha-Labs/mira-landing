@@ -9,7 +9,7 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
       setIsActiveSVG(isActive);
     }, 200);
   }, [isActive]);
-  
+
   return (
     <svg
       width="507"
@@ -17,9 +17,9 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
       viewBox="0 0 507 205"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${isActiveSVG ? styles['active'] : ''}`}
+      className={`${isActiveSVG ? styles["active"] : ""}`}
     >
-      <g clip-path="url(#clip0_807_486)">
+      <g clipPath="url(#clip0_807_486)">
         <rect
           width="507"
           height="205"
@@ -31,55 +31,55 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M49.4874 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-2"]}
           ></path>
           <path
             d="M97.824 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-3"]}
           ></path>
           <path
             d="M146.161 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-4"]}
           ></path>
           <path
             d="M194.497 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-5"]}
           ></path>
           <path
             d="M242.834 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-6"]}
           ></path>
           <path
             d="M291.17 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-7"]}
           ></path>
           <path
             d="M339.507 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-8"]}
           ></path>
           <path
             d="M387.843 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-9"]}
           ></path>
           <path
             d="M436.18 0V485.092"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-10"]}
           ></path>
         </g>
@@ -87,25 +87,25 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           <path
             d="M485.38 49.1997L0.287767 49.1997"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-11"]}
           ></path>
           <path
             d="M485.38 97.5363L0.287752 97.5362"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-12"]}
           ></path>
           <path
             d="M485.38 145.873L0.287752 145.873"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-13"]}
           ></path>
           <path
             d="M485.38 194.209L0.287752 194.209"
             stroke="#E3EEFF"
-            stroke-width="1.15087"
+            strokeWidth="1.15087"
             className={styles["svg-elem-14"]}
           ></path>
         </g>
@@ -127,14 +127,14 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
         <path
           d="M119 147.5L561 -113V5V212.5L119 205.5V147.5ZM119 147.5L425 343"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-18"]}
         ></path>
         <path
           d="M396.591 29.9921L431.339 9.44482L482.183 39.2383C480.683 42.9531 480.781 44.088 482.183 44.8888L446.669 65.436L396.591 36.6699C395.878 34.3444 395.577 33.0045 396.591 29.9921Z"
           fill="#BBDAFF"
           stroke="#4F95FF"
-          stroke-width="0.75"
+          strokeWidth="0.75"
           className={styles["svg-elem-19"]}
         ></path>
         <path
@@ -142,28 +142,28 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           d="M400.703 29.0043L430.911 11.3443C431.274 11.1321 431.724 11.1353 432.084 11.3528L477.766 38.9525C478.53 39.4137 478.498 40.5312 477.71 40.949L447.062 57.2019C446.712 57.3873 446.292 57.3795 445.949 57.1812L400.707 30.9885C399.946 30.5475 399.943 29.4485 400.703 29.0043Z"
           fill="#B0D0FF"
           stroke="#A5C7FA"
-          stroke-width="0.286957"
+          strokeWidth="0.286957"
           className={styles["svg-elem-20"]}
         ></path>
         <path
           d="M209.721 132.84L248.107 110.139L304.275 143.056C302.619 147.16 302.726 148.414 304.275 149.299L265.043 172L209.721 140.218C208.933 137.649 208.6 136.168 209.721 132.84Z"
           fill="#BBDAFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-21"]}
         ></path>
         <path
           d="M209.667 126.953L245.142 106.075L297.051 136.349C295.52 140.124 295.619 141.277 297.051 142.09L260.793 162.969L209.667 133.739C208.938 131.376 208.631 130.015 209.667 126.953Z"
           fill="#9BC9FF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-22"]}
         ></path>
         <path
           d="M209.653 120.752L244.401 100.205L295.244 129.998C293.745 133.713 293.842 134.848 295.244 135.649L259.73 156.196L209.653 127.43C208.939 125.104 208.638 123.765 209.653 120.752Z"
           fill="#BBDAFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-23"]}
         ></path>
         <path
@@ -171,14 +171,14 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           d="M213.152 120.791L244.079 101.759C244.338 101.6 244.663 101.598 244.924 101.754L291.8 129.782C292.335 130.103 292.326 130.882 291.783 131.19L259.91 149.268C259.656 149.411 259.345 149.409 259.094 149.261L213.165 122.187C212.636 121.875 212.629 121.113 213.152 120.791Z"
           fill="#B0D0FF"
           stroke="#A5C7FA"
-          stroke-width="0.203647"
+          strokeWidth="0.203647"
           className={styles["svg-elem-24"]}
         ></path>
         <path
           d="M209.513 115.209L236.802 99.3018L276.731 122.368C275.553 125.244 275.63 126.122 276.731 126.742L248.841 142.65L209.513 120.379C208.952 118.579 208.716 117.542 209.513 115.209Z"
           fill="#BBDAFF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-25"]}
         ></path>
         <path
@@ -186,14 +186,14 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           d="M212.227 114.777L236.592 100.735C236.844 100.59 237.155 100.59 237.407 100.736L273.748 121.775C274.297 122.093 274.288 122.89 273.73 123.195L248.9 136.781C248.652 136.917 248.35 136.914 248.104 136.773L212.229 116.189C211.684 115.876 211.683 115.09 212.227 114.777Z"
           fill="#B0D0FF"
           stroke="#A5C7FA"
-          stroke-width="0.203647"
+          strokeWidth="0.203647"
           className={styles["svg-elem-26"]}
         ></path>
         <path
           d="M274.022 18.2195V89.2272C274.022 89.2272 330.678 122.808 335.036 125.116C339.394 127.423 340.163 127.423 344.009 125.116L420.148 81.2805C421.174 80.5114 421.943 75.3845 420.148 74.1028L360.416 38.7271V-29.4607C359.903 -32.2807 355.545 -34.0747 352.212 -32.2805L277.355 10.5292C274.791 12.5799 274.022 13.8616 274.022 18.2195Z"
           fill="#D7E9FF"
           stroke="#4F95FF"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-27"]}
         ></path>
         <path
@@ -201,7 +201,7 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           d="M355.983 37.0739L281.983 78.8175C280.649 79.5696 279 78.6063 279 77.0755V16.1746C279 15.4494 279.393 14.7811 280.026 14.4279L354.026 -26.8413C355.359 -27.5848 357 -26.621 357 -25.0946V35.3319C357 36.0536 356.611 36.7193 355.983 37.0739Z"
           fill="#C5DCFF"
           stroke="#A5C7FA"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-28"]}
         ></path>
         <path
@@ -209,14 +209,14 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           d="M280.051 84.2753L356.494 41.0685C357.117 40.7167 357.879 40.7238 358.495 41.0872L415.546 74.7565C416.865 75.5352 416.855 77.4474 415.527 78.212L340.498 121.425C339.88 121.781 339.12 121.781 338.502 121.425L280.037 87.7495C278.695 86.9765 278.703 85.0373 280.051 84.2753Z"
           fill="#C5DCFF"
           stroke="#A5C7FA"
-          stroke-width="0.5"
+          strokeWidth="0.5"
           className={styles["svg-elem-29"]}
         ></path>
         <path
           d="M443.767 96.9137C444.597 96.428 445.626 96.4351 446.449 96.9321L483.342 119.204C483.511 119.306 483.614 119.489 483.614 119.686C483.614 119.882 483.512 120.064 483.345 120.166L466.442 130.529C465.597 131.046 464.534 131.045 463.691 130.524L426.831 107.773C426.667 107.671 426.567 107.492 426.567 107.298C426.567 107.1 426.672 106.917 426.842 106.817L426.656 106.499L426.842 106.817L443.767 96.9137Z"
           fill="#D7E9FF"
           stroke="#4F95FF"
-          stroke-width="0.75"
+          strokeWidth="0.75"
           className={styles["svg-elem-30"]}
         ></path>
         <path
@@ -224,7 +224,7 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
           d="M430.698 106.045L444.42 98.3262C444.779 98.1245 445.218 98.1302 445.571 98.3412L479.413 118.552C480.144 118.989 480.162 120.041 479.447 120.502L466.108 129.108C465.737 129.347 465.26 129.352 464.884 129.12L430.658 108.022C429.914 107.563 429.936 106.474 430.698 106.045Z"
           fill="#C5DCFF"
           stroke="#A5C7FA"
-          stroke-width="0.286957"
+          strokeWidth="0.286957"
           className={styles["svg-elem-31"]}
         ></path>
       </g>
@@ -235,7 +235,7 @@ const ComingSoonSVG = ({ isActive }: { isActive: boolean }) => {
         height="204.25"
         rx="8.625"
         stroke="#4F95FF"
-        stroke-width="0.75"
+        strokeWidth="0.75"
         className={styles["svg-elem-32"]}
       ></rect>
       <defs>

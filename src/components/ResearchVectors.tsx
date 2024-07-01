@@ -70,22 +70,22 @@ const ResearchVectors = () => {
       <path
         d="M14.9981 0.999757L1.12109 9.00228L1.12173 25.0158L14.9981 32.9998L28.8791 25.0158V8.99274L14.9981 0.999757Z"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M15.002 1.02363V32.9685"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M28.8372 9.0147L1.16602 24.9768"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1.16602 9.0147L28.8372 24.9768"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
     </svg>,
     <svg
@@ -99,27 +99,27 @@ const ResearchVectors = () => {
       <path
         d="M28.8759 24.9927L14.995 17.0002L1.66699 25.016L14.995 33L28.8764 25.016L28.8759 16.996"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1.12402 8.99747L15.0012 17L28.8821 9.00701L15.0012 0.999717L1.12402 9.00224L1.12456 16.9958"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1.11856 17.0007L14.9873 24.9629C14.9931 24.9629 14.9979 24.9629 15.0037 24.9629L28.8756 16.9996C28.8756 16.9975 28.8756 16.9969 28.8756 16.9948L14.9952 9.03205L1.11856 16.9991C1.11803 16.9996 1.11803 17.0001 1.11856 17.0007Z"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M14.9963 1.00682V9.02155"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M14.9963 24.9782V32.9934"
         stroke="#4F95FF"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
     </svg>,
   ];
