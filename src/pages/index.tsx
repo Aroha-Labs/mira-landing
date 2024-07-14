@@ -18,6 +18,7 @@ import ComingSoonSVG from "@/components/ComingSoonSVG";
 import Footer from "@/components/Footer";
 import MainDiagramPhone from "@/components/MainDiagramPhone";
 import Link from "next/link";
+import MiraSvg from "@/images/mira.svg";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 const ibmPlexSerif = IBM_Plex_Serif({ subsets: ["latin"], weight: "600" });
@@ -123,8 +124,8 @@ export default function Home() {
                 </div>
                 <Navbar onResearchClick={handleResearchClick} />
                 <div className="flex flex-col justify-start max-md:w-full min-[450px]:max-md:items-center max-md:items-start items-start pl-[30px] md:pl-[129px] mt-[76px] fade-in-second relative z-[1]">
-                    <div className="flex flex-row justify-start items-start w-full max-md:max-w-[307px]">
-                        <span className="w-6 h-6 rounded-full bg-[#4F95FF]"></span>
+                    <div className="flex flex-row justify-start items-center w-full max-md:max-w-[307px] gap-2">
+                        <MiraSvg className="h-6 w-[72px]" />{" "}
                     </div>
 
                     <p
