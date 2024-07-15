@@ -132,11 +132,11 @@ const ResearchVectors = () => {
         "Game theoretic ML systems",
         "Verifiable inference",
         "Stake-based model evaluation",
-        "on-chain AI resource markets",
+        "On-chain AI resource markets",
     ];
 
     const descriptions = [
-        "Getting the best out of leveraging model ensembels and adversarial systems using economic primitives.",
+        "Getting the best out of leveraging model ensembles and adversarial systems using economic primitives.",
         "Striking a balance between multiple truth systems for high performance verifiability of AI operations.",
         "Building robust, trusted & self improving eval systems for a multi-model.",
         "novel attribution systems for collaboration of AI resources at scale.",
