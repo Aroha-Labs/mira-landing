@@ -144,7 +144,11 @@ export default function Home() {
                         <button className="rounded-full max-md:w-full text-white font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#4F95FF] hover:bg-[#4F88DD] transition-all duration-300">
                             Build on Mira
                         </button>
-                        <Link href={"https://klokapp.ai/login"} target="_blank">
+                        <Link
+                            href={"https://klokapp.ai/login"}
+                            target="_blank"
+                            className="max-md:w-full"
+                        >
                             <button className="rounded-full max-md:w-full text-[#4F95FF] font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#EDF4FF] border border-solid border-[#CDE1FF] hover:bg-[#DAE9FF] transition-all duration-300">
                                 Try <b>Klok</b> — Our first ecosystem app
                             </button>
