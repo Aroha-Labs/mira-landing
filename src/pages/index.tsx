@@ -222,6 +222,7 @@ export default function Home() {
                 <div
                     ref={researchVectorsRef}
                     className="relative z-[1] flex justify-center w-full items-start"
+                    id="research"
                 >
                     <ResearchVectors />
                 </div>
