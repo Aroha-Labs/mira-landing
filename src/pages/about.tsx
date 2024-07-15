@@ -12,6 +12,9 @@ import SymbolicCapitalSVG from "@/images/investors/symbolic-capital.svg";
 import VelocitySVG from "@/images/investors/velocity.svg";
 import SaltSVG from "@/images/investors/salt.svg";
 import KaranSvg from "@/images/team/karan.svg";
+import SidSvg from "@/images/team/sid.svg";
+import NinadSvg from "@/images/team/ninad.svg";
+import StoneSvg from "@/images/team/stone.svg";
 import DownloadSvg from "@/images/download.svg";
 import Link from "next/link";
 
@@ -22,30 +25,29 @@ const teamMembers = [
     {
         name: "Karan Sirdesai",
         role: "Co-founder, CEO",
-        description:
-            "Crypto, AI & software investing at Accel, ex- BCG. Led crypto seed to series D investing",
-        image: "/path/to/karan-image.png",
+        description: "Crypto, AI & software investing at Accel, ex- BCG.",
+        image: <KaranSvg className="w-[38px] h-[38px]" />,
     },
     {
-        name: "Sid",
+        name: "Sid Doddipalli",
         role: "Co-founder, CTO",
         description:
-            "CTO at Stader (grew protocol to $1B+ TVL across 7 chains), chief architect of 2 AI companies, Columbia, IIT Madras",
-        image: "/path/to/sid-image.png",
+            "CTO at Stader Labs(grew protocol to $1B+ TVL across 7 chains), chief architect @ Freewheel (acq. by Comcast) Columbia, IIT Madras.",
+        image: <SidSvg className="w-[38px] h-[38px]" />,
     },
     {
-        name: "Ninad",
+        name: "Ninad Naik",
         role: "Head of Product",
         description:
-            "Global head of marketplace product @ Uber eats, Amazon AI leadership team, Columbia, Michigan",
-        image: "/path/to/ninad-image.png",
+            "Global head of marketplace product @ Uber eats, Amazon AI, Columbia , Michigan.",
+        image: <NinadSvg className="w-[38px] h-[38px]" />,
     },
     {
-        name: "Stone",
+        name: "Stone Gettings",
         role: "Head of Growth",
         description:
-            "Global head of marketplace product @ Uber eats, Amazon AI leadership team, Columbia, Michigan",
-        image: "/path/to/stone-image.png",
+            "Growth and ecosystem @ Kadena, software, AI and crypto investing at Accel, professional basketball player across Japan, US & Portugal, Cornell.",
+        image: <StoneSvg className="w-[38px] h-[38px]" />,
     },
 ];
 
@@ -122,7 +124,7 @@ export default function About() {
                                     className="grid grid-cols-[38px_1fr] gap-7"
                                 >
                                     <div className="w-[38px]">
-                                        <KaranSvg className="w-[38px] h-[38px]" />
+                                        {member.image}
                                     </div>
                                     <div className="flex flex-col gap-3">
                                         <div className="flex flex-col gap-1.5">
