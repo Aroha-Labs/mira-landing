@@ -163,16 +163,18 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex w-full px-5 py-3 bg-[#EBF3FF] justify-between rounded-lg">
-                        <h2
-                            className={`text-[#3988FE] text-sm font-semibold tracking-[4.2px]`}
-                        >
-                            BRAND KIT
-                        </h2>
-                        <p className="flex items-center gap-2 text-sm text-[#3988FE] font-medium">
-                            Download <DownloadSvg />
-                        </p>
-                    </div>
+                    <Link href="/BrandKit.zip">
+                        <div className="flex w-full px-5 py-3 bg-[#EBF3FF] justify-between rounded-lg">
+                            <h2
+                                className={`text-[#3988FE] text-sm font-semibold tracking-[4.2px]`}
+                            >
+                                BRAND KIT
+                            </h2>
+                            <p className="flex items-center gap-2 text-sm text-[#3988FE] font-medium">
+                                Download <DownloadSvg />
+                            </p>
+                        </div>
+                    </Link>
                 </div>
                 <div className="px-[32px] md:pl-[21px] ">
                     <Footer />
