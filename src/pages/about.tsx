@@ -139,7 +139,7 @@ export default function About() {
                                     </div>
                                 </div>
                             ))}
-                            <div className="flex flex-col sm:flex-row gap-3 sm:gap-7">
+                            <div className="grid grid-cols-[38px_1fr] gap-7">
                                 <div className="w-[38px]">
                                     <div className="w-[38px] h-[38px] bg-[#3988FE] rounded-[100%]"></div>
                                 </div>
