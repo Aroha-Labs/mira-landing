@@ -141,9 +141,15 @@ export default function Home() {
                         Maintained and advanced by the community.
                     </p>
                     <div className="flex max-md:max-w-[307px] flex-col md:flex-row max-md:w-full justify-start items-start md:items-center mt-7 gap-x-3 max-md:gap-y-3">
-                        <button className="rounded-full max-md:w-full text-white font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#4F95FF] hover:bg-[#4F88DD] transition-all duration-300">
-                            Build on Mira
-                        </button>
+                        <Link
+                            href="https://kmbzgfz2ocz.typeform.com/to/mPIvyopO"
+                            target="_blank"
+                            className="max-md:w-full"
+                        >
+                            <button className="rounded-full max-md:w-full text-white font-medium text-[14px] leading-[17px] tracking-[-2%] px-4 py-2 bg-[#4F95FF] hover:bg-[#4F88DD] transition-all duration-300">
+                                Build on Mira
+                            </button>
+                        </Link>
                         <Link
                             href={"https://klokapp.ai/login"}
                             target="_blank"
