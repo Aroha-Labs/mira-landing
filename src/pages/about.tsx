@@ -116,15 +116,17 @@ export default function About() {
                 <div className="px-[32px] md:pl-[129px] md:pr-0 flex flex-col gap-[72px]">
                     <div className="flex flex-col gap-6">
                         <h1
-                            className={`text-[#1E2024] text-[24px] leading-[23px] font-semibold ${ibmPlexSerif.className}`}
+                            className={`text-[#1E2024] text-[24px] leading-[28px] font-semibold ${ibmPlexSerif.className}`}
                         >
-                            We&apos;re a team of believers and pioneers.
+                            Mira builds decentralised infrastructure with the
+                            vision to make truly open AI performantly accessible
+                            to every developer, business or community.
                         </h1>
-                        <p className=" text-[#455164] text-[14px] leading-[17px] max-w-[307px]">
+                        {/* <p className=" text-[#455164] text-[14px] leading-[17px] max-w-[307px]">
                             Mira is the result of people who are aligned on a
                             single goal: coming together to achieve something
                             that&apos;s utterly ambitious.
-                        </p>
+                        </p> */}
                     </div>
                     <div className="flex flex-col gap-8">
                         <h2
@@ -182,7 +184,10 @@ export default function About() {
                                 </div>
                             ))}
                         </div>
-                        <Link href="https://www.theblock.co/post/305596/crypto-ai-startup-mira-seed-funding" target="_blank">
+                        <Link
+                            href="https://www.theblock.co/post/305596/crypto-ai-startup-mira-seed-funding"
+                            target="_blank"
+                        >
                             <div className="flex w-full px-5 py-3 bg-[#EBF3FF] justify-between rounded-lg">
                                 <h2 className={`text-[#3988FE] text-sm`}>
                                     Read about our Seed Raise
