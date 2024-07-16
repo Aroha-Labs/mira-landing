@@ -29,6 +29,11 @@ const Footer = () => {
                         +linkedin
                     </p>
                 </Link>
+                <Link href="/BrandKit.zip" target="_blank">
+                    <p className="cursor-pointer hover:text-[#464C55] transition-all duration-300">
+                        +brandkit
+                    </p>
+                </Link>
             </div>
         </div>
     );

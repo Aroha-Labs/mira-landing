@@ -16,11 +16,50 @@ import SidSvg from "@/images/team/sid.svg";
 import NinadSvg from "@/images/team/ninad.svg";
 import StoneSvg from "@/images/team/stone.svg";
 import DownloadSvg from "@/images/download.svg";
+import ArrowRightSVG from "@/images/arrow-right.svg";
 import Link from "next/link";
 
 const workSans = Work_Sans({ subsets: ["latin"] });
 const ibmPlexSerif = IBM_Plex_Serif({ subsets: ["latin"], weight: "600" });
 
+const backedBy = [
+    {
+        name: "Balaji Srinivasan",
+        company: "Network State",
+    },
+    {
+        name: "Sandeep Nailwal",
+        company: "Polygon",
+    },
+    {
+        name: "Sameer Pitalwalla",
+        company: "Google",
+    },
+    {
+        name: "Jose Maria Macedo",
+        company: "Delphi Digital",
+    },
+    {
+        name: "Alex Svanevik",
+        company: "Nansen",
+    },
+    {
+        name: "Saneel Srini",
+        company: "Ritual",
+    },
+    {
+        name: "Ajit Tripathi",
+        company: "Hadron",
+    },
+    {
+        name: "Prabhakar Reddy",
+        company: "FalconX",
+    },
+    {
+        name: "Tekin Salimi",
+        company: "Dao5",
+    },
+];
 const teamMembers = [
     {
         name: "Karan Sirdesai",
@@ -87,29 +126,72 @@ export default function About() {
                             that&apos;s utterly ambitious.
                         </p>
                     </div>
-                    <div className="flex flex-col gap-7">
+                    <div className="flex flex-col gap-8">
                         <h2
                             className={`text-[#3988FE] text-sm font-semibold tracking-[4.2px]`}
                         >
-                            INVESTORS
+                            BACKED BY
                         </h2>
-                        <div className="flex flex-col gap-8">
-                            <div className="flex gap-4 flex-wrap items-center">
-                                <BitkraftSVG />
-                                <FrameworkSVG />
+                        <div className="flex flex-col gap-1.5">
+                            <div className="flex gap-1.5 flex-wrap items-center">
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <BitkraftSVG className="w-[107px] h-[18px]" />
+                                </div>
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <FrameworkSVG className="w-[121px] h-[60px]" />
+                                </div>
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <AccelSVG className="w-[54px] h-[18px]" />
+                                </div>
                             </div>
-                            <div className="flex gap-8 flex-wrap items-center">
-                                <AccelSVG />
-                                <CrucibleSVG />
-                                <FoliusSVG />
+                            <div className="flex gap-1.5 flex-wrap items-center md:flex-nowrap">
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <CrucibleSVG className="w-[37px] h-[37px]" />
+                                </div>
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <FoliusSVG className="w-[214px] h-[34px]" />
+                                </div>
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <SymbolicCapitalSVG className="w-[72px] h-[34px]" />
+                                </div>
                             </div>
-                            <div className="flex gap-8 flex-wrap items-center">
-                                <MechanismCapitalSVG />
-                                <SymbolicCapitalSVG />
-                                <VelocitySVG />
-                                <SaltSVG />
+                            <div className="flex gap-1.5 flex-wrap items-center">
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <VelocitySVG className="w-[71px] h-[60px]" />
+                                </div>
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <SaltSVG className="w-[94px] h-[27px]" />
+                                </div>
+                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                    <MechanismCapitalSVG className="w-[87px] h-[34px]" />
+                                </div>
                             </div>
                         </div>
+                        <div className="flex flex-wrap gap-1.5">
+                            {backedBy.map((backer, index) => (
+                                <div
+                                    key={index}
+                                    className="px-[12px] h-[60px] border border-border flex flex-col items-start justify-center gap-2.5 rounded"
+                                >
+                                    <div className="text-xs font-semibold text-[#414141]">
+                                        {backer.name}
+                                    </div>
+                                    <div className="text-xs opacity-60 text-[#414141]">
+                                        {backer.company}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <Link href="/BrandKit.zip">
+                            <div className="flex w-full px-5 py-3 bg-[#EBF3FF] justify-between rounded-lg">
+                                <h2 className={`text-[#3988FE] text-sm`}>
+                                    Read about our Seed Raise
+                                </h2>
+                                <p className="flex items-center gap-2 text-sm text-[#3988FE] font-medium">
+                                    <ArrowRightSVG />
+                                </p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="flex flex-col gap-7">
                         <h2
@@ -150,7 +232,10 @@ export default function About() {
                                         <h3 className="text-[#232526] text-[14px] font-semibold leading-[120%]">
                                             You
                                         </h3>
-                                        <Link href="/careers">
+                                        <Link
+                                            href="https://changeable-bowler-611.notion.site/49451efaffa340a59c0c9a52d8073d63?v=73f64d108b004fc5ae47ba408589c38a"
+                                            target="_blank"
+                                        >
                                             <p className="text-[#32353B] text-[14px] leading-[120%] underline">
                                                 Visit careers page
                                             </p>
@@ -159,24 +244,12 @@ export default function About() {
                                     <p className="text-[#455164] text-[14px] opacity-60">
                                         We are looking for ambitious, smart
                                         people who push themselves and uphold
-                                        themselves to a standard.
+                                        themselves to high standard.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <Link href="/BrandKit.zip">
-                        <div className="flex w-full px-5 py-3 bg-[#EBF3FF] justify-between rounded-lg">
-                            <h2
-                                className={`text-[#3988FE] text-sm font-semibold tracking-[4.2px]`}
-                            >
-                                BRAND KIT
-                            </h2>
-                            <p className="flex items-center gap-2 text-sm text-[#3988FE] font-medium">
-                                Download <DownloadSvg />
-                            </p>
-                        </div>
-                    </Link>
                 </div>
                 <div className="px-[32px] md:pl-[21px] ">
                     <Footer />
