@@ -136,35 +136,35 @@ export default function About() {
                         </h2>
                         <div className="flex flex-col gap-1.5">
                             <div className="flex gap-1.5 flex-wrap items-center">
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <BitkraftSVG className="w-[107px] h-[18px]" />
                                 </div>
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <FrameworkSVG className="w-[121px] h-[60px]" />
                                 </div>
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <AccelSVG className="w-[54px] h-[18px]" />
                                 </div>
                             </div>
                             <div className="flex gap-1.5 flex-wrap items-center md:flex-nowrap">
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <CrucibleSVG className="w-[37px] h-[37px]" />
                                 </div>
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <FoliusSVG className="w-[214px] h-[34px]" />
                                 </div>
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <SymbolicCapitalSVG className="w-[72px] h-[34px]" />
                                 </div>
                             </div>
                             <div className="flex gap-1.5 flex-wrap items-center">
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <VelocitySVG className="w-[71px] h-[60px]" />
                                 </div>
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <SaltSVG className="w-[94px] h-[27px]" />
                                 </div>
-                                <div className="px-[22.5px] h-[60px] border border-border flex items-center justify-center rounded">
+                                <div className="px-[22.5px] h-[60px] border border-[#D7E7FF] flex items-center justify-center rounded">
                                     <MechanismCapitalSVG className="w-[87px] h-[34px]" />
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ export default function About() {
                             {backedBy.map((backer, index) => (
                                 <div
                                     key={index}
-                                    className="px-[12px] h-[60px] border border-border flex flex-col items-start justify-center gap-2.5 rounded"
+                                    className="px-[12px] h-[60px] border border-[#D7E7FF] flex flex-col items-start justify-center gap-2.5 rounded"
                                 >
                                     <div className="text-xs font-semibold text-[#414141]">
                                         {backer.name}
