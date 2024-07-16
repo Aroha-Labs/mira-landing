@@ -138,7 +138,7 @@ const ResearchVectors = () => {
     const descriptions = [
         "Getting the best out of leveraging model ensembles and adversarial systems using economic primitives.",
         "Striking a balance between multiple truth systems for high performance verifiability of AI operations.",
-        "Building robust, trusted & self improving eval systems for a multi-model.",
+        "Building robust, trusted & self improving eval systems for a multi-model world.",
         "novel attribution systems for collaboration of AI resources at scale.",
     ];
 
