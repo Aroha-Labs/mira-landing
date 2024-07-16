@@ -182,7 +182,7 @@ export default function About() {
                                 </div>
                             ))}
                         </div>
-                        <Link href="/BrandKit.zip">
+                        <Link href="https://www.theblock.co/post/305596/crypto-ai-startup-mira-seed-funding" target="_blank">
                             <div className="flex w-full px-5 py-3 bg-[#EBF3FF] justify-between rounded-lg">
                                 <h2 className={`text-[#3988FE] text-sm`}>
                                     Read about our Seed Raise
