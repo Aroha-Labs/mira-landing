@@ -5,6 +5,16 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Mira" />
+        <meta
+          property="og:description"
+          content="Decentralised Infrastructure to Universalise AI"
+        />
+        <meta property="og:image" content="/icons/icon-512x512.png" />
+        <meta property="og:url" content="https://mira.network/" />
+        <meta name="theme-color" content="#4F95FF" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-SN9FBRTQ23"
