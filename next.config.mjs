@@ -34,7 +34,7 @@ const nextConfig = {
 };
 
 export default withPWA({
-  dest: 'out',
+  dest: 'public',
   register: true,
   skipWaiting: true,
 })(nextConfig);
