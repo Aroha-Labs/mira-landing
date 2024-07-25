@@ -2,7 +2,8 @@
   "name": "Mira Landing",
   "short_name": "Mira",
   "description": "Decentralised Infrastructure to Universalise AI",
-  "start_url": "/",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4F95FF",
@@ -16,6 +17,19 @@
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/default.png",
+      "type": "image/png",
+      "sizes": "646x1398"
+    },
+    {
+      "src": "/screenshots/wide.png",
+      "type": "image/png",
+      "sizes": "3024x1890",
+      "form_factor": "wide"
     }
   ]
 }
