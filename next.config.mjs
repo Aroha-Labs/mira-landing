@@ -1,9 +1,13 @@
 import withPWA from 'next-pwa';
+import nrExternals from '@newrelic/next/load-externals.js';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  experimental: {
+    serverComponentsExternalPackages: ['newrelic']
+  },
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
@@ -29,6 +33,7 @@ const nextConfig = {
     // Modify the file loader rule to ignore *.svg, since we have it handled now.
     fileLoaderRule.exclude = /\.svg$/i
 
+    nrExternals(config)
     return config
   },
 };
