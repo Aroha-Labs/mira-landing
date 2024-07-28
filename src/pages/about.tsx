@@ -249,7 +249,7 @@ export default function About() {
                                     <p className="text-[#455164] text-[14px] opacity-60">
                                         We are looking for ambitious, smart
                                         people who push themselves and uphold
-                                        themselves to high standard.
+                                        themselves to a high standard.
                                     </p>
                                 </div>
                             </div>
