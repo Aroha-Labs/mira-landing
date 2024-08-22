@@ -49,11 +49,11 @@ const Navbar = ({ onResearchClick }: { onResearchClick: () => void }) => {
                 </p>
             </Link>
             <Link
-                href="https://changeable-bowler-611.notion.site/49451efaffa340a59c0c9a52d8073d63?v=73f64d108b004fc5ae47ba408589c38a"
+                href="https://blog.mira.network"
                 target="_blank"
             >
                 <p className="cursor-pointer hover:text-[#4F95FF] transition-all duration-300">
-                    +careers
+                    +blog
                 </p>
             </Link>
         </div>
