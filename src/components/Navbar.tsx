@@ -50,7 +50,6 @@ const Navbar = ({ onResearchClick }: { onResearchClick: () => void }) => {
             </Link>
             <Link
                 href="https://blog.mira.network"
-                target="_blank"
             >
                 <p className="cursor-pointer hover:text-[#4F95FF] transition-all duration-300">
                     +blog

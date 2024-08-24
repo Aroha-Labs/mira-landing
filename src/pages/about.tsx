@@ -71,7 +71,7 @@ const teamMembers = [
         name: "Sid Doddipalli",
         role: "Co-founder, CTO",
         description:
-            "CTO at Stader Labs(grew protocol to $1B+ TVL across 7 chains), chief architect @ Freewheel (acq. by Comcast) Columbia, IIT Madras.",
+            "CTO at Stader Labs (grew protocol to $1B+ TVL across 7 chains), chief architect @ Freewheel (acq. by Comcast) Columbia, IIT Madras.",
         image: <SidSvg className="w-[38px] h-[38px]" />,
     },
     {
