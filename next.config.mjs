@@ -31,6 +31,14 @@ const nextConfig = {
 
     return config
   },
+  async rewrites() {
+    return [
+      {
+        source: '/metrics',
+        destination: '/api/metrics',
+      },
+    ];
+  },
 };
 
 export default withPWA({
