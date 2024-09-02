@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "NODE_OPTIONS='-r @newrelic/next' next dev",
     "build": "next build",
-    "start": "NODE_OPTIONS='-r @newrelic/next' next start",
+    "start": "NODE_OPTIONS='-r @newrelic/next' npx serve@latest out",
     "lint": "next lint"
   },
   "dependencies": {
+    "@newrelic/browser-agent": "^1.264.0",
     "@newrelic/next": "^0.10.0",
     "clsx": "^2.1.1",
     "newrelic": "^12.3.0",

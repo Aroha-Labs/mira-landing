@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 /* eslint-disable @next/next/next-script-for-ga */
 import { Html, Head, Main, NextScript } from "next/document";
 
@@ -5,6 +6,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <script type="text/javascript" src="/js/nr.js"></script>
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Mira" />
