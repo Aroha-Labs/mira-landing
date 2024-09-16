@@ -176,7 +176,7 @@ export default function Home() {
                     >
                         <CommonAboutComponent
                             title="Flow market"
-                            description="Community-sourced & mantained workflows to elevate the AI developer experience"
+                            description="Community-sourced & maintained workflows to elevate the AI developer experience"
                         />
                         <FlowSVGFirst isActive={isActive} />
                     </div>
