@@ -8,7 +8,7 @@ const Navbar = ({ onResearchClick }: { onResearchClick: () => void }) => {
     const pathname = usePathname();
 
     return (
-      <div className="fade-in-first relative z-[1] flex w-full justify-start items-center pl-[34px] md:pl-[129px] gap-x-8 text-[#455164] text-[14px] leading-[17px] pb-3 pt-[39px] md:pt-[37px]">
+      <div className="fade-in-first relative z-[1] flex w-full justify-start items-center pl-[34px] md:pl-[129px] gap-x-8 text-[#455164] text-[14px] leading-[17px] pb-3 pt-[39px] md:pt-[37px] flex-wrap gap-y-2">
         <Link href="/">
           <p
             className={cn(
@@ -50,6 +50,11 @@ const Navbar = ({ onResearchClick }: { onResearchClick: () => void }) => {
         <Link href="https://blog.mira.network">
           <p className="cursor-pointer hover:text-[#4F95FF] transition-all duration-300">
             +blog
+          </p>
+        </Link>
+        <Link href="mailto:admin@arohalabs.com">
+          <p className="cursor-pointer hover:text-[#4F95FF] transition-all duration-300">
+            +contact
           </p>
         </Link>
       </div>
