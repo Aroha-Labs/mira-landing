@@ -52,6 +52,11 @@ const Navbar = ({ onResearchClick }: { onResearchClick: () => void }) => {
             +blog
           </p>
         </Link>
+        <Link href="mailto:admin@arohalabs.com">
+          <p className="cursor-pointer hover:text-[#4F95FF] transition-all duration-300">
+            +contact
+          </p>
+        </Link>
       </div>
     );
 };
