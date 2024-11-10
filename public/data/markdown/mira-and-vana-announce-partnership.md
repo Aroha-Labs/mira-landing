@@ -27,7 +27,7 @@ Follow Mira on X and Join the community on Discord!
 
 ## About Mira
 
-Mira transforms how AI is developed, utilized, and maintained through its vision to universalize AI access. Mira makes it easy for anyone to integrate AI technology into their product by minimizing complexities via community-built AI workflows. Mira's network acts as an inscription layer to evaluate, attribute & compensate AI contributors on the end use of their contributions. Mira was founded and brought to life by a team of seasoned entrepreneurs, investors and operators with experience at notable companies including Accel, Amazon, Uber, BCG, Google, Stader, and more. Mira is also backed by notable VC firms, such as BITKRAFT Ventures, Framework Ventures, and Accel.
+Mira transforms how AI is developed, utilized, and maintained through its vision to universalize AI access. Mira makes it easy for anyone to integrate AI technology into their product by minimizing complexities via community-built AI workflows. Mira's network acts as an inscription layer to verify, attribute & compensate AI contributors on the end use of their contributions. Mira was founded and brought to life by a team of seasoned entrepreneurs, investors and operators with experience at notable companies including Accel, Amazon, Uber, BCG, Google, Stader, and more. Mira is also backed by notable VC firms, such as BITKRAFT Ventures, Framework Ventures, and Accel.
 
 [Website](https://mira.network/) | [X](https://x.com/Mira_Network) | [Discord](https://discord.com/invite/mira-network) | [LinkedIn](https://www.linkedin.com/company/mira-aroha-labs/about/)
 

@@ -26,7 +26,7 @@ Despite the immense potential of AI chatbots, several challenges persist in thei
 
 To address these challenges, we've implemented a state-of-the-art routing system that optimizes performance, reduces costs, and enhances the user experience. Here's how it works:
 
-1. **Intelligent Query Evaluation**: When a user submits a query, it's first passed to a router that evaluates its nature and content. This router is built in-house and is optimized for performance (latency).  
+1. **Intelligent Query Evaluation**: When a user submits a query, it's first passed to a router that verifies its nature and content. This router is built in-house and is optimized for performance (latency).  
 2. **Business Logic Selection:** Queries are automatically passed to the most relevant business logic such as a pricing endpoint for token prices, or sub-workflows for other capabilities. This selection logic optimizes for performance (latency). 
 3. **Pattern Recognition for "Head" Queries**: If the query can be answered by an LLM, and if it matches a known pattern of popular or "Anticipiated" queries, it's directed to a retriever. 
 4. **Efficient Caching System**: The retriever accesses a pre-generated, cached response for the query and returns it to the router, which then delivers it to the user. Cached responses are generated using frontier models are are optimized for quality (since the marginal cost of response is ~zero).
