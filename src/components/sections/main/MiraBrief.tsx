@@ -125,7 +125,8 @@ const MiraBrief = ({
       </div>
       <div className="sm:col-span-3 xl:col-span-1 sm:row-span-1 xl:row-span-2"></div>
       <Link
-        href={"/"}
+        href={"/research/mira-whitepaper.pdf"}
+        target="_blank"
         className="sm:col-span-3 xl:col-span-1 sm:row-span-2 xl:row-span-1 flex flex-col xl:flex-row items-start xl:items-center justify-center xl:justify-between bg-[#105C43] hover:bg-[#146E51] transition-all duration-500 xl:py-[23px] px-[32px] max-xl:gap-y-[12px]"
         data-aos="fade-in"
         data-aos-delay="500"

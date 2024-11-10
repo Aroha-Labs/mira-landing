@@ -25,37 +25,37 @@ const Footer = () => {
             fill="white"
           />
         </svg>
-        <p className="mt-[32px] md:mt-[58px] text-[16px] leading-[22px] text-white/50 tracking-[-1.3%]">
+        <p className="mt-[32px] md:mt-[58px] text-[14px] leading-[22px] text-white/50 tracking-[-1.3%]">
           ©2024 Aroha Labs. All rights reserved.
         </p>
       </div>
       <div className="flex flex-row items-start justify-end gap-x-[32px]">
         <div className="flex flex-col items-start justify-start">
-          <p className="text-[16px] leading-[22px] text-white/50 tracking-[-1.3%] font-medium">
+          <p className="text-[14px] leading-[22px] text-white/50 tracking-[-1.3%] font-medium">
             Ecosystem
           </p>
           <Link
             href="/"
-            className="text-[16px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
+            className="text-[14px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
           >
             Flows — Beta
           </Link>
           <Link
             href="/"
-            className="text-[16px] leading-[22px] text-white/30 tracking-[-1.3%] font-medium mt-2"
+            className="text-[14px] leading-[22px] text-white/30 tracking-[-1.3%] font-medium mt-2"
           >
             Evals — Coming Soon
           </Link>
         </div>
         <div className="flex flex-col items-start justify-start">
-          <p className="text-[16px] leading-[22px] text-white/50 tracking-[-1.3%] font-medium">
+          <p className="text-[14px] leading-[22px] text-white/50 tracking-[-1.3%] font-medium">
             Socials
           </p>
           <Link
             href="https://x.com/Mira_Network"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[16px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
+            className="text-[14px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
           >
             X
           </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
             href="https://github.com/Aroha-Labs"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[16px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
+            className="text-[14px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
           >
             GitHub
           </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
             href="https://discord.com/invite/mira-network"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[16px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
+            className="text-[14px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
           >
             Discord
           </Link>

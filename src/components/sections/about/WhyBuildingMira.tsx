@@ -127,7 +127,8 @@ const WhyBuildingMira = () => {
         </p>
       </Link>
       <Link
-        href={"/"}
+        href={"/research/mira-whitepaper.pdf"}
+        target="_blank"
         className="sm:col-span-3 xl:col-span-1 sm:row-span-2 xl:row-span-1 flex flex-col xl:flex-row items-start xl:items-center justify-center xl:justify-between border border-solid border-[#072A1F] xl:py-[23px] px-[32px] max-xl:gap-y-[12px] group"
         data-aos="fade-in"
         data-aos-offset="0"
