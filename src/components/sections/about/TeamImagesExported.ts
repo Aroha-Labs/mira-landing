@@ -21,8 +21,8 @@ export const teamImages = [
   {
     name: "Ninad Naik",
     image: ninad,
-    position: "Head of Product",
-    desc: "Global head of marketplace product \n@ Uber eats, Amazon AI, Columbia, Michigan.",
+    position: "Head of Research and Product",
+    desc: "Head of Worldwide Marketplace @ Uber Eats, ex Amazon GM, Amazon AI, Columbia University, University of Michigan",
   },
   {
     name: "Stone Gettings",
