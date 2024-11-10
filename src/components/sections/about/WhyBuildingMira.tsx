@@ -65,13 +65,14 @@ const WhyBuildingMira = () => {
       </div>
       <div className="sm:col-span-3 xl:col-span-1 sm:row-span-1 xl:row-span-3"></div>
       <Link
-        href={"/"}
+        href={"https://changeable-bowler-611.notion.site/49451efaffa340a59c0c9a52d8073d63?v=73f64d108b004fc5ae47ba408589c38a"}
         className="sm:col-span-3 xl:col-span-1 sm:row-span-2 xl:row-span-1 flex flex-col xl:flex-row items-start xl:items-center justify-center xl:justify-between border border-solid border-[#072A1F] xl:py-[23px] px-[32px] max-xl:gap-y-[12px] group"
         data-aos="fade-in"
         data-aos-delay="500"
         data-aos-offset="0"
         data-aos-duration="500"
         data-aos-once="true"
+        target="_blank"
       >
         <div className="flex flex-row justify-start items-center xl:h-full gap-x-1.5">
           <p className="text-white text-[14px] leading-[120%] group-hover:text-[#105C43] transition-colors duration-500">
@@ -95,13 +96,14 @@ const WhyBuildingMira = () => {
         </p>
       </Link>
       <Link
-        href={"/"}
+        href={"https://flows.mira.network/"}
         className="sm:col-span-3 xl:col-span-1 sm:row-span-2 xl:row-span-1 flex flex-col xl:flex-row items-start xl:items-center justify-center xl:justify-between border border-solid border-[#072A1F] xl:py-[23px] px-[32px] max-xl:gap-y-[12px] group"
         data-aos="fade-in"
         data-aos-delay="500"
         data-aos-offset="0"
         data-aos-duration="500"
         data-aos-once="true"
+        target="_blank"
       >
         <div className="flex flex-row justify-start items-center xl:h-full gap-x-1.5">
           <p className="text-white text-[14px] leading-[120%] group-hover:text-[#105C43] transition-colors duration-500">
