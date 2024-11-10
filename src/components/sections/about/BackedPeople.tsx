@@ -10,8 +10,8 @@ const people = [
   { name: "Saneel Srini", company: "Ritual" },
   { name: "Ajit Tripathi", company: "Hadron" },
   { name: "Prabhakar Reddy", company: "FalconX" },
-  { name: "Prabhakar Reddy", company: "FalconX" },
   { name: "Tekin Salimi", company: "DaoS" },
+  { name: "Kushagra Shrivastava", company: "Xoogler Ventures" },
 ];
 
 const BackedPeople = () => {
