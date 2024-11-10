@@ -53,4 +53,15 @@ export const writingData = [
     slug: "mira-and-hyperbolic-announce-partnership",
     content: "/data/markdown/mira-and-hyperbolic-announce-partnership.md",
   },
+  {
+    tag: "blog",
+    title:
+      "Building Trustless AI Output Verification: A Framework for Error-Free Systems",
+    authors: [],
+    description:
+      "Today, we're introducing a decentralized network that solves AI's critical reliability problem. While current AI systems require human oversight due to high error rates, our framework enables truly autonomous operation through trustless output verification.",
+    date: "July 12 2024",
+    slug: "building-trustless-ai-output-verification",
+    content: "/data/markdown/building-trustless-ai-output-verification.md",
+  },
 ];
