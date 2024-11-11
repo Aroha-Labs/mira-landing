@@ -267,7 +267,7 @@ const Navbar = ({ pageName = "main" }: NavbarProps) => {
               rel="noreferrer"
               className="text-white hover:text-[#105C43] transition-colors duration-300 py-2"
             >
-              X
+              X<span className="inline md:hidden"> (prev. Twitter)</span>
             </Link>
             <Link
               href="https://github.com/Aroha-Labs"

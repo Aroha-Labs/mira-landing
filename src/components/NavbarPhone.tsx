@@ -142,7 +142,7 @@ const NavbarPhone = ({
           className="text-white text-[16px] leading-[97%] relative mt-6"
           onClick={handleLinkClick}
         >
-          <p>X</p>
+          <p>X<span className="inline md:hidden"> (prev. Twitter)</span></p>
         </Link>
         <Link
           href="https://github.com/Aroha-Labs"

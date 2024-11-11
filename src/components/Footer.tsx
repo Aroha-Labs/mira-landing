@@ -57,7 +57,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-[14px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
           >
-            X
+            X<span className="inline md:hidden"> (prev. Twitter)</span>
           </Link>
           <Link
             href="https://github.com/Aroha-Labs"
