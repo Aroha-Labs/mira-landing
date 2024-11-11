@@ -96,7 +96,7 @@ const WhyBuildingMira = () => {
         </p>
       </Link>
       <Link
-        href={"https://forms.gle/kG1F7i1wHj2snRNs5"}
+        href={"https://flows.mira.network"}
         className="sm:col-span-3 xl:col-span-1 sm:row-span-2 xl:row-span-1 flex flex-col xl:flex-row items-start xl:items-center justify-center xl:justify-between border border-solid border-[#072A1F] xl:py-[23px] px-[32px] max-xl:gap-y-[12px] group"
         data-aos="fade-in"
         data-aos-delay="500"
