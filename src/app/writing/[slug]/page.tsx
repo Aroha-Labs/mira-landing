@@ -71,7 +71,7 @@ const MainWriting = async (props: PageProps) => {
                 >
                   {article.title}
                 </p>
-                {article.authors.length > 0 && (
+                {(article.authors.length > 0 || article.date) && (
                   <div className="w-full flex flex-col md:flex-row justify-between items-start max-md:gap-y-[16px] md:items-center mt-[32px]">
                     <p
                       className={`text-[14px] leading-[150%] text-[#999999] flex items-center gap-x-[15px]`}
@@ -98,6 +98,7 @@ const MainWriting = async (props: PageProps) => {
                         </React.Fragment>
                       ))}
                     </p>
+                    <div className={`text-[14px] leading-[150%] text-[#999999] flex items-center gap-x-[15px]`}>{article.date}</div>
                   </div>
                 )}
                 <ReactMarkdown

@@ -19,6 +19,7 @@ interface IndividualWritingProps {
   title?: string;
   authors?: string[];
   description?: string;
+  date?: string;
 }
 
 const IndividualWriting = ({
@@ -26,6 +27,7 @@ const IndividualWriting = ({
   title,
   authors,
   description,
+  date,
 }: IndividualWritingProps) => {
   return (
     <div className="w-full h-full flex flex-col justify-between items-start gap-y-[43px]">
@@ -44,28 +46,35 @@ const IndividualWriting = ({
             {title}
           </p>
         )}
-        {authors && (
-          <p
-            className={`text-[14px] leading-[150%] text-white flex items-center gap-x-[15px]`}
+        <div className="w-full flex flex-col md:flex-row justify-between items-start max-md:gap-y-[16px] md:items-center">
+          {authors && (
+            <p
+              className={`text-[14px] leading-[150%] text-white flex items-center gap-x-[15px]`}
+            >
+              {authors.map((author, index) => (
+                <React.Fragment key={author}>
+                  {index > 0 && (
+                    <svg
+                      width="4"
+                      height="3"
+                      viewBox="0 0 4 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="1.83594" cy="1.5" r="1.5" fill="#5D5D5D" />
+                    </svg>
+                  )}
+                  {author}
+                </React.Fragment>
+              ))}
+            </p>
+          )}
+          <div
+            className={`text-[14px] leading-[150%] text-white/40 flex items-center gap-x-[15px] hidden md:block lg:hidden`}
           >
-            {authors.map((author, index) => (
-              <React.Fragment key={author}>
-                {index > 0 && (
-                  <svg
-                    width="4"
-                    height="3"
-                    viewBox="0 0 4 3"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="1.83594" cy="1.5" r="1.5" fill="#5D5D5D" />
-                  </svg>
-                )}
-                {author}
-              </React.Fragment>
-            ))}
-          </p>
-        )}
+            {date}
+          </div>
+        </div>
       </div>
       {description && (
         <p className={`text-[14px] leading-[150%] text-white/40`}>

@@ -27,6 +27,7 @@ const WritingGrid = () => {
               title={item.title}
               authors={item.authors}
               description={item.description}
+              date={item.date}
             />
           </Link>
         ))}
