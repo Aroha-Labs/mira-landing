@@ -270,14 +270,6 @@ const Navbar = ({ pageName = "main" }: NavbarProps) => {
               X<span className="inline md:hidden"> (prev. Twitter)</span>
             </Link>
             <Link
-              href="https://github.com/Aroha-Labs"
-              target="_blank"
-              rel="noreferrer"
-              className="text-white hover:text-[#105C43] transition-colors duration-300 py-2"
-            >
-              GitHub
-            </Link>
-            <Link
               href="https://discord.com/invite/mira-network"
               target="_blank"
               rel="noreferrer"
