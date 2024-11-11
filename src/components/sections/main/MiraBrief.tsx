@@ -51,7 +51,7 @@ const MiraBrief = ({
             Collective Wisdom.
           </p>
           <p className="text-[#506057] text-[14px] leading-[120%]">
-            Verify AI output with other diverse LLMs.
+            Evaluate AI output using other diverse LLMs.
           </p>
         </div>
       </div>
@@ -180,7 +180,7 @@ const MiraBrief = ({
           </svg>
         </div>
         <p className="text-white/40 text-[14px] leading-[120%] group-hover:text-[#105C43] transition-colors duration-500">
-          Mira Factory — live in beta.
+          Mira Flows - early access
         </p>
       </Link>
     </div>

@@ -10,13 +10,13 @@ export const teamImages = [
     name: "Karan Sirdesai",
     image: karan,
     position: "Co-Founder, CEO",
-    desc: "Crypto, AI & software investing\nat Accel, ex- BCG.",
+    desc: "Crypto, AI & software investing\n@ Accel, ex- BCG.",
   },
   {
     name: "Sid Doddipalli",
     image: sid,
     position: "Co-Founder, CTO",
-    desc: "CTO at Stader Labs (grew protocol to $1B+ TVL across 7 chains), chief architect @ Freewheel (acq. by Comcast) Columbia, IIT Madras.",
+    desc: "CTO @ Stader Labs, Chief Architect @ FreeWheel, Columbia, IIT Madras",
   },
   {
     name: "Ninad Naik",
@@ -28,13 +28,13 @@ export const teamImages = [
     name: "Stone Gettings",
     image: stone,
     position: "Head of Growth",
-    desc: "Growth and ecosystem @ Kadena, software, AI and crypto investing at Accel, prof. basketball player across Japan, US & Portugal, Cornell.",
+    desc: "Technology investing @ Accel, Professional Basketball Player, Cornell",
   },
   {
     name: "Hamid Raza",
     image: hamid,
-    position: "Head of Technology",
-    desc: "Ex Disney+ Hotstar, Swiggy",
+    position: "Head of Engineering",
+    desc: "Disney+ Asia, ex-Swiggy",
   },
   {
     name: "Pragun Dua",

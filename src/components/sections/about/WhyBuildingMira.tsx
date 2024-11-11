@@ -20,7 +20,7 @@ const WhyBuildingMira = () => {
         >
           <p className="text-white text-[14px] leading-[150%] md:max-w-[188px]">
             {
-              "The true potential of Artificial Intelligence is bottlenecked by the need for human verification. Errors, hallucinations, and bias make AI risky when unchecked."
+              "The true potential of Artificial Intelligence is bottlenecked by the need for human review. Errors, hallucinations, and bias make AI risky when unchecked."
             }
           </p>
         </div>
@@ -39,7 +39,7 @@ const WhyBuildingMira = () => {
         >
           <p className="text-white text-[14px] leading-[150%] md:max-w-[188px]">
             {
-              "Mira is building the infrastructure to replace human oversight with diverse AI ensembles, anchored by the same trustless, decentralized principles that power modern blockchains. "
+              "Mira is building the infrastructure to replace human oversight with a collection of diverse AI models, anchored by the same trustless, decentralized principles that power modern blockchains. "
             }
           </p>
         </div>
@@ -58,7 +58,7 @@ const WhyBuildingMira = () => {
         >
           <p className="text-white text-[14px] leading-[150%] md:max-w-[188px]">
             {
-              "Our goal: to unlock the exponential potential of truly autonomous AI, secured by cryptoeconomic safeguards that ensure trust without human intervention."
+              "Unlock the exponential potential of autonomous intelligence, steered by trustless primitives that need no human intervention"
             }
           </p>
         </div>
@@ -92,7 +92,7 @@ const WhyBuildingMira = () => {
           </svg>
         </div>
         <p className="text-white/40 text-[14px] leading-[120%] group-hover:text-[#105C43] transition-colors duration-500">
-          Join our team.
+          Join the mission
         </p>
       </Link>
       <Link
@@ -123,7 +123,7 @@ const WhyBuildingMira = () => {
           </svg>
         </div>
         <p className="text-white/40 text-[14px] leading-[120%] group-hover:text-[#105C43] transition-colors duration-500">
-          Mira Factory — live in beta.
+          Mira Flows - early access
         </p>
       </Link>
       <Link

@@ -28,7 +28,7 @@ export default function Home() {
       <div className="relative flex flex-col flex-1 justify-between items-start w-full h-fit xl:h-full pb-12 pt-[64px]">
         <HeroText
           title="Trustless, verified intelligence."
-          subtitle="Mira empowers truly reliable AI — by trustlessly verifying outputs and actions at every step."
+          subtitle="Mira makes AI reliable, by evaluating outputs and actions at every step using collective intelligence"
         />
         <div className="flex w-full items-center justify-between max-xl:mt-[45vh]">
           <MiraBrief
