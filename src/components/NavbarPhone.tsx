@@ -145,15 +145,6 @@ const NavbarPhone = ({
           <p>X<span className="inline md:hidden"> (prev. Twitter)</span></p>
         </Link>
         <Link
-          href="https://github.com/Aroha-Labs"
-          target="_blank"
-          rel="noreferrer"
-          className="text-white text-[16px] leading-[97%] relative mt-6"
-          onClick={handleLinkClick}
-        >
-          <p>GitHub</p>
-        </Link>
-        <Link
           href="https://discord.com/invite/mira-network"
           target="_blank"
           rel="noreferrer"
