@@ -60,14 +60,6 @@ const Footer = () => {
             X<span className="inline md:hidden"> (prev. Twitter)</span>
           </Link>
           <Link
-            href="https://github.com/Aroha-Labs"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[14px] leading-[22px] text-white tracking-[-1.3%] font-medium mt-2"
-          >
-            GitHub
-          </Link>
-          <Link
             href="https://discord.com/invite/mira-network"
             target="_blank"
             rel="noopener noreferrer"
