@@ -48,7 +48,7 @@ const MiraBrief = ({
           <p
             className={`${gtSuperText.className} text-white text-[18px] leading-[104%]`}
           >
-            Collective Wisdom
+            Collective Wisdom.
           </p>
           <p className="text-[#506057] text-[14px] leading-[120%]">
             Verify AI output with other diverse LLMs.
